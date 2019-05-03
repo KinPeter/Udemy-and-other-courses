@@ -5,8 +5,8 @@
 
 ### Contents:
 
-[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
-[BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game-)  
+[Basic Algorithms in JS](/#basic-algorithms-js-)  
+[BeCube course Python Adventure game](/#becube-python-adventure-game-)  
 [CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-codeberry-)  
 [Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-javascript-course-by-jonas-schmedtmann-)  
 [Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-node-js-course-by-andrew-mead-)  
