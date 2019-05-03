@@ -5,17 +5,17 @@
 
 ### Contents:
 
-[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
-[BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game-)  
-[CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#codeberry-)  
-[Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#complete-javascript-course-by-jonas-schmedtmann-)  
-[Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#complete-node-js-course-by-andrew-mead-)  
-[Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#complete-webdeveloper-course-2-by-rob-percival-)  
-[Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes-)  
-[Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce-)  
-[Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard-)  
-[SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses-)  
-[Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses-)  
+[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-basic-algorithms-js-)  
+[BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-becube-python-adventure-game-)  
+[CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-codeberry-)  
+[Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-javascript-course-by-jonas-schmedtmann-)  
+[Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-node-js-course-by-andrew-mead-)  
+[Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-webdeveloper-course-2-by-rob-percival-)  
+[Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-python-by-in28minutes-)  
+[Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-python-mega-course-by-ardit-sulce-)  
+[Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-python-print-chessboard-)  
+[SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-sass-courses-)  
+[Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-short-js-courses-)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
