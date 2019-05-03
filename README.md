@@ -19,7 +19,7 @@
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
-## Basic-Algorithms-JS [:file_folder:](/Basic-Algorithms-JS "Go to code folder") 
+## [:file_folder:](/Basic-Algorithms-JS "Go to code folder") Basic-Algorithms-JS  
 
 > Contains examples of the basic algorithms below  
  
