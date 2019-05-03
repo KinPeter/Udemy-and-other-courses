@@ -7,15 +7,15 @@
 
 [Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js)  
 [BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game)  
-[CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-codeberry-)  
-[Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-javascript-course-by-jonas-schmedtmann-)  
-[Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-node-js-course-by-andrew-mead-)  
-[Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-webdeveloper-course-2-by-rob-percival-)  
-[Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-python-by-in28minutes-)  
-[Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-python-mega-course-by-ardit-sulce-)  
-[Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-python-print-chessboard-)  
-[SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-sass-courses-)  
-[Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-short-js-courses-)  
+[CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#codeberry)  
+[Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#complete-javascript-course-by-jonas-schmedtmann)  
+[Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#complete-node-js-course-by-andrew-mead)  
+[Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#complete-webdeveloper-course-2-by-rob-percival)  
+[Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes)  
+[Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce)  
+[Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard)  
+[SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses)  
+[Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
@@ -43,16 +43,16 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/CodeBerry "Go to code folder") CodeBerry 
+## CodeBerry 
 
-> Projects include basics of HTML, CSS, Bootstrap, JavaScript and a bit of Node.js.
+> [:file_folder:](/CodeBerry "Go to code folder") Projects include basics of HTML, CSS, Bootstrap, JavaScript and a bit of Node.js.
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Complete-JavaScript-Course-by-Jonas-Schmedtmann "Go to code folder") Complete-JavaScript-Course-by-Jonas-Schmedtmann 
+## Complete-JavaScript-Course-by-Jonas-Schmedtmann 
 
->All code from Udemy - Complete JavaScript Course by Jonas Schmedtmann
+> [:file_folder:](/Complete-JavaScript-Course-by-Jonas-Schmedtmann "Go to code folder") All code from Udemy - Complete JavaScript Course by Jonas Schmedtmann
 
 - JavaScript basics
 - How JS works behind the scenes *- execution, hoisting, scopes, this*
@@ -66,9 +66,9 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Complete-Node-JS-Course-by-Andrew-Mead "Go to code folder") Complete-Node-JS-Course-by-Andrew-Mead 
+## Complete-Node-JS-Course-by-Andrew-Mead 
 
-> All code from Udemy - Complete Node JS Course by Andrew Mead
+> [:file_folder:](/Complete-Node-JS-Course-by-Andrew-Mead "Go to code folder") All code from Udemy - Complete Node JS Course by Andrew Mead
 
 - **Notes App**
     - Using the file system
@@ -105,9 +105,9 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Complete-Webdeveloper-Course-2-by-Rob-Percival "Go to code folder") Complete-Webdeveloper-Course-2-by-Rob-Percival 
+## Complete-Webdeveloper-Course-2-by-Rob-Percival 
 
-> All code from Udemy - Complete Webdeveloper Course 2.0 by Rob Percival
+> [:file_folder:](/Complete-Webdeveloper-Course-2-by-Rob-Percival "Go to code folder") All code from Udemy - Complete Webdeveloper Course 2.0 by Rob Percival
 
 - HTML 5 - *basic elements*
 - CSS 3 - *basic elements*
@@ -123,9 +123,9 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Python-by-in28minutes "Go to code folder") Python-by-in28minutes 
+## Python-by-in28minutes 
 
-> Code created during the online course: [Python Programming for Beginners - Learn in 100 Easy Steps](https://www.udemy.com/python-tutorial-for-beginners/) 
+> [:file_folder:](/Python-by-in28minutes "Go to code folder") Code created during the online course: [Python Programming for Beginners - Learn in 100 Easy Steps](https://www.udemy.com/python-tutorial-for-beginners/) 
 
 - Python basics
 - OOP basics
@@ -135,7 +135,9 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Python-mega-course-by-Ardit-Sulce "Go to code folder") Python-mega-course-by-Ardit-Sulce 
+## Python-mega-course-by-Ardit-Sulce 
+
+> [:file_folder:](/Python-mega-course-by-Ardit-Sulce "Go to code folder") All code from Udemy - Python Mega Course by Ardit Sulce
 
 **Basic scripts in the following topics:**
 - Beyond basics : datetime, file handling, functions
@@ -164,17 +166,17 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Python-print-chessboard "Go to code folder") Python-print-chessboard 
+## Python-print-chessboard 
 
-> Printing chessboard with Python
+> [:file_folder:](/Python-print-chessboard "Go to code folder") Printing chessboard with Python
 From the Udemy online course [Python 1200: Practice for Beginners](https://www.udemy.com/python-1200/)
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Sass-courses "Go to code folder") SASS-Courses 
+## SASS-Courses 
 
-> Code from two different Sass basic courses from Udemy
+> [:file_folder:](/Sass-courses "Go to code folder") Code from two different Sass basic courses from Udemy
 
 - Sass API and compiling CSS
 - Basic Sass Syntax
@@ -183,9 +185,9 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## [:file_folder:](/Short-JS-courses "Go to code folder") Short-JS-Courses 
+## Short-JS-Courses 
 
-> All code from some Udemy JavaScript and jQuery Courses
+> [:file_folder:](/Short-JS-courses "Go to code folder") All code from some Udemy JavaScript and jQuery Courses
 
 **Advanced-and-OOP-JS**
 - Functions with any number of arguments
