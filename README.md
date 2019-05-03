@@ -5,7 +5,7 @@
 
 ### Contents:
 
-[Basic Algorithms in JS](#https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
+[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
 [BeCube course Python Adventure game](#BeCube-Python-Adventure-game)  
 [CodeBerry School](#CodeBerry)  
 [Complete JavaScript Course by Jonas Schmedtmann](#Complete-JavaScript-Course-by-Jonas-Schmedtmann)  
@@ -34,7 +34,7 @@
 - Segment / *Metszet*
 - Union / *Unió*     
 
-[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 ## BeCube-Python-Adventure-game [#](#BeCube-Python-Adventure-game)
 
@@ -47,7 +47,7 @@
 
 > Projects include basics of HTML, CSS, Bootstrap, JavaScript and a bit of Node.js.
 
-[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Complete-JavaScript-Course-by-Jonas-Schmedtmann [#](#Complete-JavaScript-Course-by-Jonas-Schmedtmann)
