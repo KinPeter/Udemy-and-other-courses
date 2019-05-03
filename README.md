@@ -5,7 +5,7 @@
 
 ### Contents:
 
-[Basic Algorithms in JS](#Basic-Algorithms-JS)  
+[Basic Algorithms in JS](#https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
 [BeCube course Python Adventure game](#BeCube-Python-Adventure-game)  
 [CodeBerry School](#CodeBerry)  
 [Complete JavaScript Course by Jonas Schmedtmann](#Complete-JavaScript-Course-by-Jonas-Schmedtmann)  
@@ -34,20 +34,20 @@
 - Segment / *Metszet*
 - Union / *Unió*     
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 ## BeCube-Python-Adventure-game [#](#BeCube-Python-Adventure-game)
 
 > Adventure game in Python we wrote during BeCube programming basics course
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## CodeBerry [#](#CodeBerry)
 
 > Projects include basics of HTML, CSS, Bootstrap, JavaScript and a bit of Node.js.
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Complete-JavaScript-Course-by-Jonas-Schmedtmann [#](#Complete-JavaScript-Course-by-Jonas-Schmedtmann)
@@ -63,7 +63,7 @@
 - Asynchronous JS *- promises, AJAX, Async/Await</>Modern JS - Forkify project - MVC, APIs, NPM, Webpack*
 - Node.js *- Bonus crash course*
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Complete-Node-JS-Course-by-Andrew-Mead [#](#Complete-Node-JS-Course-by-Andrew-Mead)
@@ -102,7 +102,7 @@
     - File upload for profile pictures \(Multer\)
     - Automatic emails \(SendGrid\)
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Complete-Webdeveloper-Course-2-by-Rob-Percival [#](#Complete-Webdeveloper-Course-2-by-Rob-Percival)
@@ -120,7 +120,7 @@
 - Mobile Apps - *APPS.JS, Adobe PhoneGap Build*
 - HTML5 & CSS3 Special Features - *forms, canvas, audio, video, selectors, pseudo classes, transformations, calc*
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Python-by-in28minutes [#](#Python-by-in28minutes)
@@ -132,7 +132,7 @@
 - Python data structures
 - Exception handling
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Python-mega-course-by-Ardit-Sulce [#](Python-mega-course-by-Ardit-Sulce)
@@ -161,7 +161,7 @@
 - App 9 : Online database webapp with Flask and SQLAlchemy +e-mail sender
 - App 10 : Geocoding webapp with Flask, Pandas and Geopy
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Python-print-chessboard [#](#Python-print-chessboard)
@@ -169,7 +169,7 @@
 > Printing chessboard with Python
 From the Udemy online course [Python 1200: Practice for Beginners](https://www.udemy.com/python-1200/)
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## SASS-Courses [#](#Sass-Courses)
@@ -180,7 +180,7 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 - Basic Sass Syntax
 - Sass Extended Syntax
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 ## Short-JS-Courses [#](#Short-JS-Courses) 
@@ -218,7 +218,7 @@ All code from some Udemy JavaScript Courses
 **The Console Object**
 - Console object methods \(\.count\(\), \.group\(\), \.time\(\), etc\)
 
-[*To the top*](#Contents:)
+[*To the top*](#https://github.com/KinPeter/Udemy-and-other-courses#contents)
 
 
 
