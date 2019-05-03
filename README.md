@@ -5,8 +5,8 @@
 
 ### Contents:
 
-[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-basic-algorithms-js-)  
-[BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-becube-python-adventure-game-)  
+[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
+[BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game-)  
 [CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-codeberry-)  
 [Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-javascript-course-by-jonas-schmedtmann-)  
 [Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#file_folder-complete-node-js-course-by-andrew-mead-)  
@@ -19,9 +19,9 @@
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
-## [:file_folder:](/Basic-Algorithms-JS "Go to code folder") Basic-Algorithms-JS  
+## Basic-Algorithms-JS  
 
-> Contains examples of the basic algorithms below  
+> [:file_folder:](/Basic-Algorithms-JS "Go to code folder") Contains examples of the basic algorithms below  
 
 - Summary / *Összegzés*
 - Counting / *Megszámolás*
@@ -36,9 +36,9 @@
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
-## [:file_folder:](/BeCube-Python-Adventure-game "Go to code folder") BeCube-Python-Adventure-game 
+## BeCube-Python-Adventure-game 
 
-> Adventure game in Python we wrote during BeCube programming basics course
+> [:file_folder:](/BeCube-Python-Adventure-game "Go to code folder") Adventure game in Python we wrote during BeCube programming basics course
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
