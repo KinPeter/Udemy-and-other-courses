@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Reaction Timer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        #shape {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+            position: relative;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <h1>Test your reactions!</h1>
+    <p>Click on the appearing shapes as quickly as you can.</p>
+    <p><strong>Your time: <span id="result"></span></strong> <span style="font-size: 75%">[ quickest catch: <span id="quickest"></span>; average time: <span id="average"></span> ]</span></p>
+    
+    <div id="shape"></div>
+    
+    
+    <script src="reaction-tester.js"></script>
+</body>
+
+</html>

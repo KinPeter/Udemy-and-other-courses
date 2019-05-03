@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HTML5 forms</title>
+
+</head>
+    <body>
+
+        <form id="myForm">
+            <p><input type="text" placeholder="Insert name here">has placeholder</p>
+            
+            <p><input type="text" autofocus>automatically focus on this input</p>
+            
+            <p><input type="text" autocomplete="off">disable autocomplete feature</p>
+            
+            <p><input type="text" required>this is a required field! </p>
+            
+            <p><input type="email">built-in email validation</p>
+            
+            <p><input type="text" pattern="[0-9]">pattern/format validation (here only single digit number)<br>check out <a href="http://html5pattern.com/">HTML5paterrn.com</a></p>
+            
+            <datalist id="names">
+                <option value="Peter">Peter</option>
+                <option value="Cheyun">Cheyun</option>
+                <option value="Petra">Petra</option>
+                <option value="Béla">Béla</option>
+            </datalist>
+            <p><input type="text" list="names">autocomplete with dropdown (only html)</p>
+            
+            <p><input type="file" multiple> upload multiple files</p>
+            
+            <input type="submit" value="submit">
+        </form>
+        
+        <br><br><br><br><br><br>
+        
+        <p><input form="myForm" type="text">this input is also linked to the form, however it's outside of it</p>
+
+    </body>
+</html>

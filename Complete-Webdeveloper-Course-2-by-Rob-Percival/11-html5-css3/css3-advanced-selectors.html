@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 5 and CSS 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+      
+      
+      <style>
+          h1 {
+              color:red;    
+          }
+          
+          /* class */ 
+          .green {              
+              color:green;              
+          }
+          
+          /* id */
+          #blue {              
+              font-size:               
+          }
+          
+          /* descending */
+          div p {              
+              font-weight: bold;              
+          }
+          
+          /* sibling element = only a "p" that has a "h3" in the same div */ 
+          h3 ~ p {
+              text-decoration: underline;
+          }
+          
+          /* only a "p" that comes after an "h3" */
+          h3 + p {          
+              font-size: 150%;          
+          }
+          
+          /* only links that has "target" attribute */          
+          a[target] {         
+              color: yellow;         
+          }
+          
+          /* only links that has google in "href" attribute */
+          a[href*="google"] {        
+              font-size: 150%; 
+              /*
+                  *= - contains the value
+                  ^= - begins with
+                  $= - has the value between two spaces
+                  |= - has the value separated by hyphens "-"
+              */
+          }
+         
+      </style>
+  </head>
+
+    
+  <body>
+      
+      <h1>I am a heading</h1>
+      
+      <div>
+          <h3>I'm an h3 element</h3>
+          <p class="green">I am a paragraph.</p>
+          <p>I'm in the div.</p>
+          <a id="blue" target="_blank">I am a link</a> 
+      </div>
+      
+      <div>
+          <p>I'm in another div</p>
+      </div>
+      
+      <p>I am outside the div</p>
+      
+      <a  href="http://www.google.com">I'm another link</a>
+      
+      
+      
+      <script>
+      
+      
+      </script>
+      
+  </body>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+        #circle {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+        }
+    
+    </style>
+    
+</head>
+
+<body>
+    
+    <div id="circle"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    
+    
+    <script type="text/javascript">
+        $("#circle").click(function() {
+            var bgcolor = $("#circle").css("background-color")
+            var bodyWidth = $("body").css("width")
+            $("#circle").css("width", "120px")
+            
+            alert(bgcolor + bodyWidth)
+        })
+        
+        $("div").click(function() {
+            if ($(this).attr("id") == "circle") {
+                alert("You have clicked on a circle")
+            } else if ($(this).attr("class") == "square") {
+                alert("You have clicked on a square")
+            }
+            
+        })
+        
+        
+    </script>
+    
+</body>
+
+</html>

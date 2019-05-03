@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+}
+
+.container {
+  width: 300px;
+  height: calc(100vh - 40px);
+  margin: 20px auto;
+  background-color: #fff;
+  position: relative;    /*a konténernek relatív pozi kell,*/
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+}
+
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .85);
+  position: absolute;    /*a doboznak pedig abszolút */
+  top: 0;
+  left: 0;
+}
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  position: absolute; 
+  top: 0;
+  right: 0;
+}
+
+#box-03 {
+  background-color: hsla(332, 69%, 51%, .85);
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+}
+
+#box-04 {
+  background-color: hsla(279, 60%, 44%, .85);
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+}

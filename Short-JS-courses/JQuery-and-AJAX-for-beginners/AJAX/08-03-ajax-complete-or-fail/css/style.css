@@ -1,0 +1,39 @@
+body {
+	font-family: arial;
+	background-color: #9B50AF;
+}
+
+.highlighted {
+	background-color: #E17BBA!important;
+}
+
+#example {
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;	
+	background-color: #3BEAB4;
+}
+
+#result {
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;	
+	background-color: white;
+}
+
+#status {
+	width: 100px;
+	height: 20px;
+	margin: 20px auto;	
+	background-color: #3BEAB4;
+}
+
+button {
+	background-color: #F46D63;
+	color: white;
+	font-weight: bold;
+	border:none;
+	padding: 5px;
+	width: 100px;
+	margin: 35px auto;
+}

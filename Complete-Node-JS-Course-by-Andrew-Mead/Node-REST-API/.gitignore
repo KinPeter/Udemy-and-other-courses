@@ -1,0 +1,4 @@
+config/
+node_modules/
+playground/
+launch mongodb database.txt

@@ -1,0 +1,17 @@
+before deploying the webapp online, we need a virtual environment, which is a clear installation of Python
+it should be in a folder next to the webapp's folder
+
+(for all this we need the python 'virtualenv' library: pip install virtualenv)
+
+so the dir tree should be like this:
+\app4_first_website\site     -- the folder contains the scripts and other files
+\app4_first_website\virtual  -- the folder contains the virtual environment
+
+First go to the project folder:
+	> cd D:\...\app4_first_website
+
+Create a virtual environment to a folder "virtual":
+	...\app4_first_website> python -m venv virtual
+
+Install all the required packages by pointing (!!) to the clear, virtual python installation's pip app, by adding the whole file path to the new folder: 
+	...\app4_first_website> virtual\Scripts\pip install flask

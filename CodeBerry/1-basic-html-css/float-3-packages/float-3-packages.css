@@ -1,0 +1,23 @@
+.package {
+  float: left;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+  background-color: #eee;
+  text-align: center;
+}
+
+.content {
+  padding: 10px;
+  background-color: #888;
+  clear: both;      /*megszünteti a float-ok hatását */ 
+  margin-top: 75px;
+}
+
+/* egy üres pszeudo-elem, aminek köszönhetően a packages div után rendbejön a content div margin-ja (rendezi a floatokat) */
+.packages::after {   
+  content: "";
+  clear: both;
+  display: block;
+}
+

@@ -1,0 +1,91 @@
+#canvas {
+  width: 400px;
+  height: 400px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px gray;
+}
+#first-row {
+  width: 100%;
+  height: 75%;
+}
+#big-rectangle {
+  width: 75%;
+  height: 100%;
+}
+#first-divider{
+  width: 3%;
+  height: 100%;
+}
+#first-column {
+  width: 22%;
+  height: 100%;
+}
+#second-divider {
+  width: 100%;
+  height: 3%;
+}
+#first-medium-rectangle {
+  width: 100%;
+  height: 48.5%;
+}
+#second-medium-rectangle {
+  width: 100%;
+  height: 48.5%;
+}
+#second-row {
+  width: 100%;
+  height: 3%;
+}
+.red {
+  background-color: firebrick;
+}
+.right {
+  float: right;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: royalblue;
+}
+.yellow {
+  background-color: khaki;
+}
+
+#third-row {
+  width: 100%;
+  height: 22%;
+}
+#blue-rectangle {
+  width: 22%;
+  height: 100%;
+}
+#fifth-divider {
+  width: 3%;
+  height: 100%;
+}
+#last-column {
+  height: 100%;
+  width: 10%;
+}
+#first-small-rectangle {
+  height: 40%;
+  width: 100%;
+}
+#fourth-divider {
+  height: 20%;
+  width: 100%;
+}
+#second-small-rectangle {
+  height: 40%;
+  width:100%;
+}
+#third-divider {
+  width: 3%;
+  height: 100%;
+}
+#last-rectangle {
+  width: 62%;
+  height: 100%;
+}

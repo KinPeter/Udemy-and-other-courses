@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HTML5 audio and video</title>
+
+</head>
+    <body>
+
+        <video width="320" height="240" controls autoplay id="video">
+            <!-- can add/remove controls with attribute "controls"
+                 and add/remove "autoplay" attribute -->
+            <source src="SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+            This text is only shown if browser doesn't support this feature. So please upgrade your browser!
+        </video>
+        
+        <button id="play">Play</button>
+
+        <br><br><br><br><br><br>
+        
+        <audio controls>
+            <source src="SampleAudio_0.4mb.mp3" type="audio/mpeg">
+            This text is only shown if browser doesn't support this feature. So please upgrade your browser!
+        </audio>
+        
+        
+        <script>
+            document.getElementById("play").onclick = function() {
+                if (document.getElementById("video").paused) {
+                    document.getElementById("video").play();
+                    this.innerHTML = "Pause";
+                } else {
+                    document.getElementById("video").pause();
+                    this.innerHTML = "Play";
+                }                  
+            }
+        
+        
+        </script>
+    </body>
+</html>

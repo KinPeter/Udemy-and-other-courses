@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"name": "Bahia Inglesa",
+		"description": "A very nice place Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+		"moreInfo": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem",
+		"image": "image.png",
+		"price": 199
+	},
+	{
+		"id": 2,
+		"name": "Iquique",
+		"description": "A very nice place Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+		"moreInfo": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem",
+		"image": "image.png",
+		"price": 199
+	},
+	{
+		"id": 3,
+		"name": "Arica",
+		"description": "A very nice place Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+		"moreInfo": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem",
+		"image": "image.png",
+		"price": 199
+	}
+]

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 5 and CSS 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+      
+      
+      <style>
+          
+          /* mouse hover over */
+          a:hover {
+              text-decoration: underline;
+          }
+          
+          /* input focused */
+          input:focus {
+              background-color: blueviolet;
+          }
+          
+          /* other input pseudos */
+          input:enabled {}
+          input:disabled {}
+          input:checked {} /* e.g. checkbox */
+          
+          /* only paragraphs that are first in their parent element */
+          p:first-child {
+              color: aquamarine;
+          }
+          
+          /* only paragraphs that are last in their parent element */
+          p:last-child {
+              font-size: 150%;
+          }
+          
+          /* only paragraphs that are "only childs" in their parent element */
+          p:only-child {
+              font-weight: bold;
+          }
+          
+          /* only paragraphs that are first/last of their type in their parent element */
+          p:first-of-type {}
+          p:last-of-type {}
+          
+          /* every second table row */
+          tr:nth-child(2n) {
+              background-color: aqua
+          }
+          /* nth-last-child() - count backwards! 
+             nth-of-type() - only count a certain type */
+          
+          /* all the empty divs */
+          div:empty {
+              display: none;
+          }
+          
+          /* all paragraphs that are not with class "green" */
+          p:not(.green) {
+              color: blue;
+          }
+          
+          /* everything that is NOT a div */
+          :not(div) {}
+          
+          /* first letter */
+          p:first-letter {
+              font-size: 130%;
+              color: darkred;
+          }
+          /* also use :first-line */
+          
+          /* put content after something */
+          a:after {
+              content: " -->Hi!";
+          }
+     
+      </style>
+  </head>
+
+    
+  <body>
+      
+      <h1>I am a heading</h1>
+      
+      <div>
+          <p class="green">I am a paragraph.</p>
+          <h3>I'm an h3 element</h3>
+          <p>I'm in the div.</p>
+          <a id="blue" target="_blank">I am a link</a> 
+      </div>
+      
+      <div>
+          <p>I'm in another div</p>
+      </div>
+      
+      <p>I am outside the div</p>
+      
+      <a  href="http://www.google.com">I'm another link</a>
+      
+      <input>
+      
+      
+      <table>
+          <tr><td>Rob</td></tr>
+          <tr><td>Kirsten</td></tr>
+          <tr><td>Tommy</td></tr>
+          <tr><td>Ralph</td></tr>
+          <tr><td>Jim</td></tr>
+          <tr><td>Antony</td></tr>
+      </table>
+      
+      <script>
+      
+      
+      </script>
+      
+  </body>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+

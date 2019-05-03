@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Geocoding</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    <style type="text/css">
+   
+
+    
+    </style>
+    
+</head>
+
+<body>
+        
+    <p></p>
+  
+    <script type="text/javascript">
+        
+        $.ajax({
+            url: "https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyCAZh0jwHIeOj4wzP825G14zryzeulHFYM",
+            type: "GET",
+            success: function (data) {
+                console.log(data);
+                
+                $.each(data['results'][0]['address_components'], function(key, value) {
+                    
+                    if (value['types'][0] == "country") {
+                        alert(value["long_name"]);
+                    }
+                    
+                })
+            }
+        })
+
+
+    </script>
+    
+</body>
+
+</html>

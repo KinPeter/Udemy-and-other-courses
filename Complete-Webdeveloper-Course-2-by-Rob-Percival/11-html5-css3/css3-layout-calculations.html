@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML 5 and CSS 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+      
+      
+      <style>
+          body {
+              margin: 0;
+          }
+          
+          #multiColumn {
+              column-count: 3;
+              column-gap: 40px;
+              column-rule: 2px solid grey;
+              text-align: justify;
+          }
+          
+          h2 {
+              column-span: all;
+          }
+          
+          header {
+              width: 100%;
+              height: 50px;
+              background-color: grey;
+          }
+          
+          #container {
+              width: 100%;
+              background-color: rgba(10,10,200,.5);
+              position: absolute;
+              height: calc(100% - 50px);
+          }
+          
+          .flexbox-container {
+              display: flex;
+              display: -webkit-flex;
+              width: 500px;
+              height: 200px;
+              background-color: aqua;
+              flex-direction: row-reverse;
+          }
+          
+          .flexbox-item {
+              background-color: bisque;
+              width: 100px;
+              height: 100px;
+              margin: 10px;
+              box-sizing: border-box;
+          }
+
+     
+      </style>
+  </head>
+
+    
+  <body>
+      <header></header>
+      <div id="container">
+          <div class="flexbox-container">
+              <div class="flexbox-item">Item 1</div>
+              <div class="flexbox-item" style="border: 5px solid grey">Item 2</div>
+              <div class="flexbox-item">Item 3</div>
+              <div class="flexbox-item">Item 4</div>
+              <div class="flexbox-item">Item 5</div>
+              <div class="flexbox-item">Item 6</div>
+              <div class="flexbox-item">Item 7</div>
+          
+          </div>
+      </div>
+
+      <div id="multiColumn">
+          <h2>News for nerds</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada et leo vitae elementum. Etiam ultricies tortor nulla, nec egestas risus auctor dapibus. Sed pretium id nisi a tempus. Cras diam tortor, placerat et gravida vel, efficitur eget sem. In vel ligula ut nisl finibus luctus ut quis orci. Vivamus at efficitur libero. Ut lectus sem, pretium in est eget, ultricies rutrum orci. Pellentesque mattis efficitur sollicitudin. Sed nunc leo, interdum in metus ac, fermentum dapibus metus. Cras suscipit, eros ac euismod accumsan, odio nisl bibendum neque, nec faucibus eros elit nec libero. Cras rhoncus hendrerit laoreet. Praesent eleifend nunc et iaculis pharetra. Cras non commodo lacus, lacinia venenatis augue.<br><br>
+
+Maecenas vitae cursus nulla. Nulla facilisi. Quisque ultricies urna at ultrices vulputate. Pellentesque aliquam leo nulla, ut porta lorem ultrices at. Nullam lectus dui, tempor ut tempor eget, rutrum eget velit. Pellentesque et laoreet leo. Donec vel feugiat sem. Sed a dolor nec sapien lacinia sodales nec eget eros. Sed varius molestie purus, nec tempus nibh cursus in. Curabitur laoreet id sapien ac consectetur. In vel fringilla sapien, faucibus tincidunt lorem. Cras feugiat erat et finibus lobortis. Aliquam maximus finibus euismod.
+<br><br>
+Cras eget pulvinar nunc, et vestibulum diam. Mauris quis blandit quam. Nunc mi orci, laoreet sed sapien ac, ultrices elementum tellus. Nunc eget orci justo. Fusce maximus urna convallis molestie bibendum. Phasellus sit amet orci venenatis, dapibus felis non, rutrum ligula. Vestibulum sollicitudin leo sit amet enim malesuada, eu sollicitudin urna volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec id lacinia sem. Duis eu neque non mi consectetur fermentum. Fusce id rhoncus ipsum. Quisque risus erat, semper eget tristique at, dapibus id nulla.
+<br><br>
+Donec vestibulum laoreet turpis, pretium luctus mauris efficitur nec. Aliquam nec aliquet mauris. Morbi accumsan lobortis mi eget volutpat. Fusce aliquam cursus sem id dictum. Integer id lacus vel tellus posuere blandit nec ac tortor. Mauris posuere eu turpis et aliquam. Proin interdum ultrices augue, quis porta nibh malesuada sit amet. Donec venenatis euismod aliquet. Vestibulum sem turpis, imperdiet sit amet tortor a, euismod tincidunt ante.
+<br><br>
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer sem justo, lacinia sed elit in, dictum convallis risus. Suspendisse tempor nibh a mauris eleifend fermentum. Quisque tincidunt lorem viverra justo porttitor fringilla. Vivamus quis sagittis ex. Duis non lacus risus. Integer metus massa, ornare vitae augue non, sollicitudin gravida leo. Aliquam bibendum est quis est iaculis pellentesque.</div>
+
+      
+      
+      
+      
+      <script>
+      
+      
+      </script>
+      
+  </body>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+

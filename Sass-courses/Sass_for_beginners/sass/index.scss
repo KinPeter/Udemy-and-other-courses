@@ -1,0 +1,94 @@
+// variables
+$primary-color: lightgreen;
+$primary-font: sans-serif, 'cursive';
+$secondary-color: rgb(98, 214, 98);
+
+// partials
+@import "partial"; // importing _partial.scss file
+
+
+body {    
+    background: $primary-color;
+    font-family: $primary-font;
+}
+
+// nesting
+.container {
+    width: 80%;
+    background: $secondary-color;
+    nav {
+        ul {
+            li {
+                font-size: 1.5em;
+                &:nth-child(2) {
+                    font-size: 1.8em;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// mixins
+@mixin transform_Me($width, $height, $color) {
+    width: $width;
+    height: $height;
+    background-color: $color;
+    transform: rotate(20deg) scale(1.5);
+}
+
+.transform {
+    @include transform_Me(150px, 80px, yellow)
+}
+
+.transform-2 {
+    @include transform_Me(80px, 40px, red)
+}
+
+
+// extend -- inheritence
+%extend-border {
+    border: 1px solid purple;
+    padding: 10px;
+    color: brown;
+}
+%margin-extend {
+    margin: 2rem;
+}
+
+.border {
+     @extend %extend-border;
+     width: 100px;
+     height: 80px;
+}
+
+.border2 {
+    @extend %extend-border;
+    @extend %margin-extend;
+    width: 130px;
+    height: 180px;
+}
+
+// pseudo selector
+.element {
+    a {
+        text-decoration: none;
+        color: black;
+        @extend %extend-border;
+        &:hover {
+            color: aqua;
+            font-weight: bold;
+        }
+    }
+}
+
+
+// operators
+.header {
+    font-size: 4px + 2px;
+    height: 80% - 5%;
+    width: 20% * 3;
+    margin-bottom: (400px / 4); // division need to be in parentheses
+}

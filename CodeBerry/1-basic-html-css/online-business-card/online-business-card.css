@@ -1,0 +1,100 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* POZÍCIONÁLÁS */
+body {
+  display: flex; /* flexbox */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*vh: viewport height (%) */
+
+  /* HÁTTÉRKÉP */
+  background-image: url('http://i.imgur.com/9kh3G8L.jpg');
+  background-repeat: no-repeat;
+  background-position: center center; /*hor., ver.*/
+  background-attachment: fixed; /*ne gördüljön együtt*/
+  background-size: cover; /*mindig lefedje a hátteret*/
+}
+
+#profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px); 
+       /* vw : viewport width, 100vw = a  */
+       /* böngészőablak 100%-a*/
+  
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+#head, #links {
+  text-align: center;  
+}
+#head, #content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(20%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+#profile-image {
+  margin-top: -60px;
+}
+
+#head, #about {
+  margin-bottom: 10%;
+}
+
+#content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8)
+}
+
+
+/* CONTACT LINKS */
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+i {
+  color: rgba(0,0,0,.65);
+}
+
+/* TIPOGRÁFIA */
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: rgba(0,0,0,.65);
+}
+
+.longtext {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.shorttext {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

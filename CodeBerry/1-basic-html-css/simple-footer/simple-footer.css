@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+
+/* POZICIONÁLÁS */
+
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;;
+  height: 8rem;
+  display: table;
+  width: 100vw;
+  text-align: center;
+  padding: 1rem;
+  
+  font-family: 'Arial', sans-serif;
+  font-size: 0.875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: 0.025rem;
+  margin-bottom: 1.5rem;
+  display: block;  /*azért kell, hogy érvényes legyen rá a box-érték, mint a margó*/
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+strong {
+  font-weight: 700;
+}

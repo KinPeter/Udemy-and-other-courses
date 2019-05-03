@@ -1,0 +1,33 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: fixed;   /*böngészőablakhoz képest fix hely, görgetésnél is*/
+  top: calc(50vh - 50px);
+  right: calc(50vw - 50px);
+}
+
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .85);
+  z-index: 4;   /*réteg elhelyezés, a nagyobb lesz előrébb */
+}
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  width: 125px;
+  height: 125px;
+  z-index: 3;
+}
+
+#box-03 {
+  background-color: hsla(332, 69%, 51%, .85);
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+
+#box-04 {
+  background-color: hsla(279, 60%, 44%, .85);
+  width: 175px;
+  height: 175px;
+  z-index: 1;
+}

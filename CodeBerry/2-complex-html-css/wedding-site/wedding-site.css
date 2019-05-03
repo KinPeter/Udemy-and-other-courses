@@ -1,0 +1,361 @@
+/* =============================
+
+    GENERAL STYLES
+
+=============================*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Single-direction margin declaration to establish vertical rhythm. */
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+body {
+  background: url(assets/wedding-landing-background.png);
+  font-family: 'Libre Baskerville', serif;
+  color: #444349;
+  font-size: 1.125rem;
+  line-height: 1.5rem;  
+}
+
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+  width: 95%;
+  text-align: center;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+/* =============================
+
+    HEADER STYLES
+
+=============================*/
+
+.cover {
+  background: url(assets/wedding-landing-cover.jpg);
+  display: table;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 75% center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: .635rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1 {
+  font-size: 3.15rem;
+  color: #d2ba87;
+  padding: 1.5rem;
+  margin-bottom: 0;  
+}
+
+.tagline {
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 13rem;
+  margin: .5rem auto;
+}
+
+.date {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
+.date::before,
+.date::after {
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .5rem;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    background-position: center;
+  }
+  
+  .tagline {
+    text-transform: uppercase;
+  }
+  
+  .hero-text {
+    width: 50%;
+    padding: 1.25rem;
+    border-radius: 5px;
+  }
+  
+  .hero-text h1 {
+    font-size: 6rem;
+    margin: 5% auto;
+  }
+}
+
+
+/* =============================
+
+      LOCATIONS STYLES
+
+=============================*/
+
+.blurb img {
+  height: 7.5rem;
+}
+
+.blurb h3 {
+  font-weight: 700;
+  padding: .5rem;
+}
+
+.blurb div {
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+}
+
+.blurb::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 6rem;
+  margin: 1.5rem auto;
+}
+
+@media (min-width: 768px) {
+  .blurb {
+    display: inline-block;
+    width: 30%;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+  
+  .blurb::after {
+    display: none;
+  }
+}
+
+/* =============================
+
+        PROGRAM STYLES
+
+=============================*/
+
+.program {
+  background: hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba86;
+  text-align: left;
+  font-family: 'Muli', sans-serif;
+}
+
+.program h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.program p {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.program ul {
+  letter-spacing: 0.025rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  }
+}
+
+/* =============================
+
+        GIFTS STYLES
+
+=============================*/
+
+.gifts img {
+  height: 7.5rem;
+}
+
+.gifts p:last-child {
+  margin-bottom: 0;
+}
+
+/* =============================
+
+        FAQ STYLES
+
+=============================*/
+
+.faq {
+  background: hsla(100,0%,0%,.6);
+  width: 100vw;
+  color: #d2ba86;
+  text-align: left;
+  font-family: 'Muli', sans-serif;
+  padding-top: 2rem;
+}
+
+.faq h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.faq h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: center
+}
+
+.question-group {
+  margin-right: 1rem
+}
+
+.question-group::after {
+  display: block;
+  content: "";
+  background-color: #d2ba86;
+  height: 3px;
+  width: 50vw;
+  margin: 1.5rem auto;
+}
+
+.question {
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.answer {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+  
+  .question-group::after {
+    display: none;
+  }
+  
+  .question-group h3 {
+    text-align: left;
+  }
+}
+
+/* =============================
+
+        FOOTER STYLES
+
+=============================*/
+
+footer {
+  background: #606060;
+  width: 100vw;
+  height: 10vh;
+  display: table;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+  font-size: .875rem;  
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1.5rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  min-height: 7vh;
+}
+
+/*
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Muli', sans-serif;
+
+
+    default text color: #444349 (grey)
+    alternate text color: #d2ba87 (gold)
+    dark background: hsla(100,0%,0%,.6);
+    link color: #bd806e
+    link color on hover: #eda087
+    footer background color: #606060
+
+*/

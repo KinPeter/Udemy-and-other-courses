@@ -1,0 +1,78 @@
+/* Demonstrational Styles */
+
+.container,
+aside,
+section {
+	border-radius: 10px;
+}
+
+aside,
+section {
+	border: 1px solid white;
+}
+
+span {
+	font-family: monospace;
+	font-size: 16px;
+	color: white;
+	border: 1px solid white;
+	border-top-left-radius: 10px;
+	padding: 0 3px 2px;
+}
+
+.container {
+	background: #e0e0e0;
+}
+
+aside {
+	background: #5197d5;
+}
+
+section {
+	background: #fdd72a;
+}
+
+/* Layout Styles */
+
+aside,
+section {
+	margin-right: 1.096%;
+}
+
+.container {
+	width: 95vw;
+	height: 50.13vh;
+	padding: 1.096%;
+}
+
+aside {
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+section {
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+@media (max-width: 420px) {
+
+	/* Demonstrational Styles */
+
+	aside,
+	section {
+		height: 48%;
+		margin-bottom: 1.096%;
+	}
+
+	/* Layout Styles */
+
+	aside,
+	section {
+		float: none;
+		width: auto;
+	}
+
+}

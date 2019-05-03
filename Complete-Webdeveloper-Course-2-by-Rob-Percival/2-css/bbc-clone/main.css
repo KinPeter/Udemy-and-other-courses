@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#topbar {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-top: 7px;
+    margin-right: 8px;
+    width: 90px;
+    float: left;
+}
+
+.topbar-section {
+    float: left;
+    height: 100%;
+    border-left: 1px #CCCCCC solid;
+    
+}
+
+#signin-img {
+    width: 30px;
+    margin: 6px 0px 8px 15px;
+    float: left;
+}
+
+.topbar-text {
+    font-weight: bold;
+    font-size: 90%;
+    position: relative;
+    top: 13px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#bell-div {
+    float: left;
+}
+
+#wigglyline {
+    float: left;
+    height: 40px;
+    padding-left: 35px;
+}
+
+#bell {
+    height: 25px;
+    margin: 9px; 
+    margin-bottom: 6px;
+}
+
+#more-arrow {
+    float: right;
+    width: 14px;
+    margin-left: 0;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+#search-box{
+    background-color: #e4e4e4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px;
+    margin: 7px 0 5px 5px;
+    float: left;
+    width: 193px; 
+}
+
+#mag-glass {
+    height: 28px;
+    margin-top: 7px;
+    float: left
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+.menu-bar-container {
+    background-color: #bb1919;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #cccccc;
+}
+
+.menu-bar {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+    padding-top: 5px;
+    float: left;
+}
+
+#local-news {
+    border: 1px  palevioletred solid;
+    padding: 3px 30px 3px 10px;
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+#local-news a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#local-news a:hover {
+    text-decoration: underline;
+}
+
+.menu-bar-2-container {
+    background-color: #990F1B;
+    width: 100%;
+    height: 40px;
+}
+
+.menu-bar-2 {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.menu-bar-2 a {
+    color: white;
+    font-size: 90%;
+    text-decoration: none;
+    padding: 0px 10px;
+    border-right: 1px solid palevioletred;
+}
+
+.menu-bar-2 a:hover {
+    text-decoration: underline;
+}
+
+#first-menu {
+    padding-left: 0;
+}
+
+#last-menu {
+    border-right: none;
+}
+
+#more-arrow-w {
+    width: 15px;
+    margin-left: 3px;
+}
+
+.page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main-article {
+    
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 3px solid #a91717;
+    width: 100px;
+}
+
+h3 a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h3 a:hover {
+    color: #1167a8;
+}
+
+.main-article-container {
+    width: 640px;
+    float: left;
+    padding-right: 20px;
+    border-right: 1px solid #cccccc;
+}
+
+
+.article-summary {
+    color: #5a5a5a;
+    width: 240px;
+    font-size: 90%;
+    float: left;
+}
+
+.article-summary img {
+    width: 17px;
+    position: relative;
+    top: 4px;
+}
+
+#topic-link {
+    text-decoration: none;
+    color: #a91717;
+    border-left: 1px solid #cccccc;
+    padding-left: 5px;
+}
+
+.article-summary a {
+    color: black;
+    text-decoration: none;
+}
+
+#topic-link:hover,
+.article-summary a:hover,
+.watch-text:hover {
+    color: #1167a8;
+}
+
+p {
+    margin: 8px 0px;
+}
+
+.date-link {
+    padding-right: 5px
+}
+
+#main-article-image {
+    float: right;
+}
+
+.article-hr {
+    border-top: 1px solid #a91717;
+    width: 50px;
+    margin-top: 15px;
+}
+
+
+
+.watch-listen-container {
+    float: left;
+    padding-left: 20px;
+    width: 310px;
+    color: #5a5a5a;
+    font-size: 90%;
+}
+
+.watch-listen {
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+.clock {
+    width: 17px;
+    position: relative;
+    top: 4px;
+}
+
+h4 {
+    color: black;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.watch-text {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.watch-links {
+    width: 190px;
+    float: right;
+}
+
+
+
+
+
+
+

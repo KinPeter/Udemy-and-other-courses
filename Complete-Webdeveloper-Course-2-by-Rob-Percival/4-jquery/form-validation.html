@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+        body {
+            font-family: helvetica, sans-serif;
+            font-size: 150%;
+        }
+        
+        input {
+            padding: 5px;
+            font-size: 25px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            width: 350px;
+        }
+        
+        label {
+            width: 200px;
+            float: left;
+            position: relative;
+            top: 7px;
+        }
+        
+        #wrapper {
+            width: 550px;
+            margin: 0 auto;
+        }
+        
+        .form-element {
+            margin-bottom: 5px;
+        }
+        
+        #submitBtn {
+            width: 130px;
+            margin-left: 200px;
+        }
+        
+        #errors {
+            color: red;
+            font-size: 55% !important;
+            margin-left: 200px;
+        }
+        
+        #success {
+            color: green;
+            font-size: 90%;
+            text-align: center;
+            margin-top: 10px;
+            display: none;
+        }
+    
+    </style>
+    
+</head>
+
+<body>
+
+    <div id="wrapper">
+        
+        <div class="form-element">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="eg. yourname@gmail.com">
+        </div>
+        
+        <div class="form-element">
+            <label for="phone">Telephone</label>
+            <input type="text" name="phone" id="phone" placeholder="eg. 0123456789">
+        </div>
+        
+        <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        
+        <div class="form-element">
+            <label for="password">Confirm password</label>
+            <input type="password" name="confirm" id="confirm">
+        </div>
+        
+        <div id="errors"></div>
+        <div id="success">Thank you for signing up!</div>
+        
+        <div class="form-element">
+            <input type="submit" id="submitBtn" value="Sign Up">
+        </div>
+        
+        
+    </div>
+  
+    <script type="text/javascript">
+
+        function isEmail(email) {
+            var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return regex.test(email);
+        }
+        
+        $("#submitBtn").click(function() {
+            
+            var errorMessage = "";
+            var fieldsMissing = "";
+            
+            if ($("#email").val() == "") { fieldsMissing += "Email<br>"}
+            if ($("#phone").val() == "") { fieldsMissing += "Telephone<br>"}
+            if ($("#password").val() == "") { fieldsMissing += "Password<br>"}
+            if ($("#confirm").val() == "") { fieldsMissing += "Password confirmation<br>"}
+            
+            if (fieldsMissing != "") {
+                errorMessage += "<p>The following field(s) are missing:</p>" + fieldsMissing;
+            }
+            
+            
+            if (isEmail($("#email").val()) == false ) {
+                errorMessage += "<p>Please use valid e-mail address format.</p>";
+            }
+            
+            if ($.isNumeric($("#phone").val()) == false ) {
+                errorMessage += "<p>Your phone number must contain numbers only.</p>";
+            }
+            
+            if ($("#password").val() != $("#confirm").val() ) {
+                errorMessage += "<p>The passwords you entered do not match.</p>"
+            }
+            
+            if (errorMessage != "") {
+                $("#errors").html(errorMessage);
+            }
+            else {
+                $("#success").show();
+                $("#errors").hide();
+                $("#submitBtn").hide();
+            }
+            
+            
+        })
+
+
+    </script>
+    
+</body>
+
+</html>

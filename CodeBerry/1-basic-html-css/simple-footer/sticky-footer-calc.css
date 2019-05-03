@@ -1,0 +1,34 @@
+.content {
+  min-height: calc(100vh - 50px);
+}
+
+.footer {
+  height: 50px;
+}
+
+/*==== HELPER STYLES ====*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #cfcfcf;
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: rgba(255,255,255, .9);
+  font-family: monospace;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: #ae001d;
+  height: 200px;
+}
+
+.footer {
+  background: #193a6a;
+}

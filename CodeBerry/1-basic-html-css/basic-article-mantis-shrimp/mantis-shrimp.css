@@ -1,0 +1,108 @@
+body {
+  background-color: #444;
+  width: 100vw;
+  color: #999;
+  font-family: 'Raleway', sans-serif;
+  width: 720px;
+  font-size: 1.2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.header-wrapper {
+  width: 100%;
+  text-align: center;
+  padding: .8rem;
+  background-color: rgba(0, 0, 0, .8);
+  position: absolute;
+  bottom: 12px;
+  
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 700;  
+}
+
+.lead {
+  background: rgba(255, 255, 0, .8);
+  color: #444;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  line-height: 2rem; 
+}
+
+.content {
+  padding: 0 1.5rem;
+}
+ 
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #e6e6e6;
+}
+ 
+p, h2 {
+  margin: 1.8rem auto;
+  line-height: 1.8rem
+}
+ 
+strong {
+  font-weight: 700;
+  color: #bfbfbf;
+}
+ 
+table {
+  width: 100%;
+}
+ 
+caption, th, td {
+  border: 1px solid rgba(153, 153, 153, .4);
+  padding: .6rem;
+  text-align: center
+}
+ 
+caption {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+ 
+th {
+  font-weight: 600;
+  background-color: rgba(153, 153, 153, .4);
+}
+ 
+hr {
+  border: 1px solid rgba(153, 153, 153, .4);
+  margin: 4% 0;
+}
+ 
+footer {
+  font-size: .8rem;
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+ 
+footer a {
+  color: lightblue;
+}
+ 
+/* 
+font-family: 'Raleway', sans-serif; 
+ 
+a background-color értéke #444, a szöveg alapértelmezett color értéke pedig #999
+*/

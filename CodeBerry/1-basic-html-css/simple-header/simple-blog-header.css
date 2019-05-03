@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background-color: #fffde8;
+}
+
+header img {
+  width: 4rem;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 100%;
+  padding: .25rem;
+}
+
+header h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  color: #555;
+  margin: .67rem 0;
+}
+
+header h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: .875rem;
+  text-transform: uppercase;
+  color: #777;
+  letter-spacing: .1rem;
+}

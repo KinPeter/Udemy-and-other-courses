@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      .map {
+        width: 640px;
+        height: 480px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+<body>
+    <h3>London:</h3>
+    <div class="map" id="map1"></div>
+    <h3>Home, with a marker:</h3>
+    <div class="map" id="map2"></div>
+    <h3>Home, night mode:</h3>
+    <div class="map" id="map3"></div>
+    <h3>Your location:</h3>
+    <div class="map" id="map4"></div>
+    <script>
+        var map1;
+        var map2;
+        var map3;
+        var map4, infoWindow;
+        function initMap() {
+            map1 = new google.maps.Map(document.getElementById('map1'), {
+                center: {lat: 51.507, lng: -0.128},
+                zoom: 11
+                });
+            
+            //HOME MARKER
+            var home = {lat: 47.5110042, lng: 19.069064};
+            map2 = new google.maps.Map(document.getElementById('map2'), {
+                zoom: 13.5, center: home   
+            });
+            var marker = new google.maps.Marker({position: home, map: map2});
+            
+            //NIGHT MODE
+            map3 = new google.maps.Map(document.getElementById('map3'), {
+                zoom: 13.5, center: home,
+                styles: [
+                    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                    {
+                      featureType: 'administrative.locality',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#d59563'}]
+                    },
+                    {
+                      featureType: 'poi',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#d59563'}]
+                    },
+                    {
+                      featureType: 'poi.park',
+                      elementType: 'geometry',
+                      stylers: [{color: '#263c3f'}]
+                    },
+                    {
+                      featureType: 'poi.park',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#6b9a76'}]
+                    },
+                    {
+                      featureType: 'road',
+                      elementType: 'geometry',
+                      stylers: [{color: '#38414e'}]
+                    },
+                    {
+                      featureType: 'road',
+                      elementType: 'geometry.stroke',
+                      stylers: [{color: '#212a37'}]
+                    },
+                    {
+                      featureType: 'road',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#9ca5b3'}]
+                    },
+                    {
+                      featureType: 'road.highway',
+                      elementType: 'geometry',
+                      stylers: [{color: '#746855'}]
+                    },
+                    {
+                      featureType: 'road.highway',
+                      elementType: 'geometry.stroke',
+                      stylers: [{color: '#1f2835'}]
+                    },
+                    {
+                      featureType: 'road.highway',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#f3d19c'}]
+                    },
+                    {
+                      featureType: 'transit',
+                      elementType: 'geometry',
+                      stylers: [{color: '#2f3948'}]
+                    },
+                    {
+                      featureType: 'transit.station',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#d59563'}]
+                    },
+                    {
+                      featureType: 'water',
+                      elementType: 'geometry',
+                      stylers: [{color: '#17263c'}]
+                    },
+                    {
+                      featureType: 'water',
+                      elementType: 'labels.text.fill',
+                      stylers: [{color: '#515c6d'}]
+                    },
+                    {
+                      featureType: 'water',
+                      elementType: 'labels.text.stroke',
+                      stylers: [{color: '#17263c'}]
+                    }
+                  ]
+                });
+            var marker2 = new google.maps.Marker({position: home, map: map3});
+        
+            
+        // LOCATION FINDER
+            map4 = new google.maps.Map(document.getElementById('map4'), {
+                center: {lat: -34.397, lng: 150.644},
+                zoom: 6
+                });
+            infoWindow = new google.maps.InfoWindow;
+
+            // Try HTML5 geolocation.
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                    };
+
+                    infoWindow.setPosition(pos);
+                    infoWindow.setContent('Location found.');
+                    infoWindow.open(map4);
+                    map.setCenter(pos);
+                }, function() {
+                    handleLocationError(true, infoWindow, map4.getCenter());
+                });
+            } else {
+                // Browser doesn't support Geolocation
+                handleLocationError(false, infoWindow, map4.getCenter());
+            }
+        };
+
+        function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+                      'Error: The Geolocation service failed.' :
+                      'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map4);
+
+
+        };
+
+    
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAZh0jwHIeOj4wzP825G14zryzeulHFYM&callback=initMap"
+    async defer></script>
+  </body>
+</html>

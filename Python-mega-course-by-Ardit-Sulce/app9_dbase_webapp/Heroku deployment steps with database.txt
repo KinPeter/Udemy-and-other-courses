@@ -1,0 +1,69 @@
+
+1) login to Heroku
+> heroku login
+
+2) create the new app
+> heroku create phcollector
+
+3) create the database with postgres and connect it to the app 
+> heroku addons:create heroku-postgresql:hobby-dev --app phcollector
+
+4) check the database URL (then copy it to PY script)
+> heroku config --app phcollector
+
+5) activate the virtual environment in PowerShell
+> virtual\Scripts\activate
+
+6) install gunicorn
+> pip install gunicorn
+
+7) create requirements.txt
+> pip freeze > requirements.txt
+
+8) create Procfile and runtime.txt 
+(check prev. lectures)
+
+9) create .gitignore file - can put files and directories here for git to ignore (not upload/deploy)
+> notepad .gitignore
+(write here directories such as 'virtual' or '__pycache__' and files you don't need)
+
+10) commit to GIT
+> git commit
+> git add .
+> git commit -m "first commit"
+
+11) connect git to heroku app
+> heroku git:remote --app phcollector
+
+12) push the files to heroku server
+> git push heroku master
+
+13) check if the website is working
+> heroku open
+(we still have work with the database)
+
+--------------------------------------------------------
+!!! CREATING OUR TABLE FOR OUR DATABASE ON HEROKU SERVER
+--------------------------------------------------------
+1) run a python shell on heroku server - which has been installed during the push
+> heroku run python
+
+(we can also run BASH on heroku "> heroku run bash" - this will run a linux shell in our app directory)
+
+2) in python shell, we create our database table
+>>> from script import db
+>>> db.create_all()
+>>> exit
+Now we should have the table in our online heroku database
+
+3) checking if the table has been created
+(PostgreSQL psql.exe must be added to PATH in windows)
+-- Connect to postgres database on heroku:
+> heroku pg:psql --app phcollector
+
+phcollector::DATABASE=> select from data;
+-- if there is no error, and we get result from query, then it's all okay!
+
+
+
+

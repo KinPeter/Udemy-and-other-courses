@@ -1,0 +1,29 @@
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .85);
+  width: 33.3%;
+}
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  width: 33.3%;
+
+}
+
+#box-03 {
+  background-color: hsla(20, 100%, 90%, .85);
+  width: 33.3%;
+}
+
+div {
+  display: inline-block;
+}
+
+
+
+/* másik megoldás:
+div {
+  float: left;
+  box-sizing: border-box; /*bevonja a bordert,paddingot a teljes szélességbe*/
+}
+*/
+

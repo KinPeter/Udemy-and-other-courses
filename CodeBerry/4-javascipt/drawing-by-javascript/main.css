@@ -1,0 +1,54 @@
+body {
+  background-color: #1d1e20;
+  
+}
+
+img {
+  border: 1px solid aliceblue;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.divheader {
+  background-color: darkgray;
+  margin-bottom: 1rem;
+}
+
+.divheader h1 {
+  color: #1d1e20;
+  font-weight: 600;
+}
+
+canvas {
+  border: 1px solid #000000;
+  background-color: #e1e1e1;
+}
+
+p {
+  margin-top: .2rem;
+  margin-bottom: 2rem;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+a {
+  color: aqua;
+  font-family: monospace;
+}
+
+#clock-wrapper {
+  height: 15rem;
+}
+
+#clock {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: white;
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 5rem;
+  margin-top: -4rem;
+}

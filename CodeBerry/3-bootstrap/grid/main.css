@@ -1,0 +1,38 @@
+.row {
+  margin-bottom: .5rem;
+}
+
+.first-row {
+  background-color: burlywood;
+  color: aqua;
+}
+
+.second-first {
+  background-color: coral;
+  color: azure;
+}
+
+.second-second {
+  background-color: blueviolet;
+  color: deepskyblue;
+}
+
+.third-main {
+  background-color: bisque;
+  color: darkgreen;
+}
+
+.third-first {
+  background-color: coral;
+  color: azure;
+}
+
+.third-second {
+  background-color: blueviolet;
+  color: deepskyblue;
+}
+
+.third-third {
+  background-color: blue;
+  color: gold;
+}

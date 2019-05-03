@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload & Download</title>
+    <link href="../static/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Upload & Download</h1>
+      <h3>Please upload a file and submit.</h3>
+
+      <form action="{{url_for('success')}}", method="POST", enctype="multipart/form-data">
+        <input type="file" name="file">
+        <br>
+        <button type="submit"> Submit </button>
+      </form>
+      {% include btn ignore missing %}
+    </div>
+  </body>
+</html>

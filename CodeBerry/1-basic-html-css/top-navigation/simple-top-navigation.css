@@ -1,0 +1,54 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+
+nav {
+  font-size: 0px;
+  /*ezzel nem lesz térköz (whitespace) az elemek közt */
+}
+
+nav ul {
+  background-color: #eee;
+  text-align: center;
+  
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block; /* Ettől lesz az egész li elem kattintható! */
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+
+/* MEDIA QUERY A TABLET ÉS DESKTOP NÉZETHEZ */
+
+@media (min-width: 600px) {
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}
+
+

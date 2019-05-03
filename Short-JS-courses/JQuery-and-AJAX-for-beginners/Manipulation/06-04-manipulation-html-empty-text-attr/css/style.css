@@ -1,0 +1,18 @@
+body {
+	font-family: arial;
+	background-color: #9B50AF;
+}
+
+#container {
+	margin-top: 50px;
+	margin-left: 30px; 
+	background-color: #3BEAB4;
+	width: 160px;
+	padding: 20px;
+	height: 80px;
+}
+
+strong {
+	font-weight: bold;
+	font-size: 20px;
+}

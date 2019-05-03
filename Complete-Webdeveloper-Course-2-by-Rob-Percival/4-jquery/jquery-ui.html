@@ -1,0 +1,160 @@
+<html>
+<head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!-- BASE JQUERY -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+    
+    <!-- JQUERY UI -->
+    <link href="jquery-ui-1-12-1/jquery-ui.css" rel="stylesheet">
+    <script src="jquery-ui-1-12-1/jquery-ui.js"></script>
+    
+    <style type="text/css">
+        body {
+            font-size: 80%;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        .box{
+            width: 130px;
+            margin: 5px;
+            border: 1px solid red;
+        }
+        
+        #container {
+            width: 400px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        
+        #smallSqr {
+            width: 50px;
+            height: 50px;
+            background-color: dodgerblue;
+            margin: 10px;
+        }
+        
+        #bigSqr {
+            width: 150px;
+            height: 150px;
+            background-color: burlywood;
+            margin: 10px;
+        }
+        
+        #accordion {
+            text-align: left;
+        }
+        
+        #sortableDiv {
+            text-align: left;
+        }
+        
+        .item {
+            border: 1px solid black;
+            width: 150px;
+            height: 20px;
+            background-color: aqua;
+            margin: 2px;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    
+    <!-- DRAGGABLE and RESIZABLE -->
+    <div class="box" id="draggable">Drag me around anywhere!</div>
+    <div class="box" id="draggableX">Drag me around horizontally!</div>
+    <div class="box" id="draggableY">Drag me around vertically!</div>
+    <div id="container">
+        <div class="box" id="draggableCon">Drag me around in the box!</div>
+    </div>
+    
+    <!-- DROPPABLE -->
+    <div id="smallSqr">Drag & drop me!</div>
+    <div id="bigSqr">Drop the blue one here!</div>
+    
+    <!-- ACCORDION -->
+    <div id="accordion">
+        <h3>Let's see the first content</h3>
+        <div>
+            <p>Hi there, try my new accordion!</p>
+        </div>
+        <h3>This is the second menu</h3>
+        <div>
+            <p>And here are some more text with a small list of</p>
+            <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+            </ul>
+        </div>
+        <h3>Last but not least...</h3>
+        <div>
+            <h2>The third!</h2>
+            <p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+        </div>
+    </div>
+    
+    <!-- SORTABLE -->
+    <div id="sortableDiv">
+        <ul id="sortable">
+            <li class="item">Peti</li>
+            <li class="item">Kriszti</li>
+            <li class="item">Leila</li>
+            <li class="item">Kata</li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript">
+        
+        // DRAGGABLE and RESIZABLE //
+        $("#draggable").draggable();
+        $("#draggableX").draggable({ axis: "x"});
+        $("#draggableY").draggable({ axis: "y"});
+        $("#draggableCon").draggable({ containment: "#container"});
+        
+        $("#container").resizable({
+            grid: 50,
+            maxHeight: 800,
+            maxWidth: 800,
+            minHeight: 200,
+            minWidth: 200,
+            animate: true,
+            resize: function(event, ui) {
+                if ($("#container").width() > 600) {
+                    alert("That's big enough!")
+                }
+            }
+        });
+        
+        // DROPPABLE //
+        $("#smallSqr").draggable();
+        $("#bigSqr").droppable({
+            drop: function(event, ui) {
+                $("#bigSqr")
+                    .html("Dropped!")
+                    .css("backgroundColor", "yellow")
+            }
+        });
+        
+        // ACCORDION //
+        $("#accordion").accordion({heightStyle: "content"});
+        
+        // SORTABLE //
+        $("#sortable").sortable();
+        
+        
+    </script>
+    
+</body>
+
+</html>

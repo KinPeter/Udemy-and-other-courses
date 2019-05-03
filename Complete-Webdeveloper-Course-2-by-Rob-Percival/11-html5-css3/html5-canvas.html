@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HTML5 canvas</title>
+    
+    <style>
+        #myCanvas {
+            border: 1px solid gray;
+        }
+    </style>
+
+</head>
+    <body>
+        
+        <canvas id="myCanvas" width="500" height="400">
+        
+        </canvas>
+
+
+        
+        <script>
+            var myCanvas = document.getElementById("myCanvas");
+            var context = myCanvas.getContext("2d");
+            
+            var gradient = context.createLinearGradient(40, 40, 200, 200);
+            gradient.addColorStop(0, "green");
+            gradient.addColorStop(1, "orange");
+            
+            context.fillStyle = gradient;            
+            context.fillRect(40, 40, 200, 200);
+            
+            context.strokeStyle = "#f42929";
+            context.lineWidth = 5;
+            context.moveTo(0, 400);
+            context.lineTo(500, 0);
+            context.stroke();
+            
+            context.beginPath();
+            context.arc(400, 300, 100, Math.PI, 2 * Math.PI * 3/4 );
+            context.stroke();
+            
+            context.fillStyle = gradient;
+            context.font = "20px Arial";
+            context.fillText("My Canvas", 200, 30);
+            
+        
+        </script>
+    </body>
+</html>

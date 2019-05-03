@@ -1,0 +1,41 @@
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
+
+/*==== HELPER STYLES ====*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #cfcfcf;
+}
+
+.content,
+.footer {
+  padding: 10px;
+  color: rgba(255,255,255, .9);
+  font-family: monospace;
+  font-size: 1.125rem;
+}
+
+.content {
+  background: #ae001d;
+  height: 200px;
+}
+
+.footer {
+  background: #193a6a;
+}

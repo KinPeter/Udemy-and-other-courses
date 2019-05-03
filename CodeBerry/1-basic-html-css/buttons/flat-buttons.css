@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.42857143;
+  padding: 0.8rem 1rem;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: black;
+  background-color: white;
+}
+
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: background-color .15s ease-in-out;
+}

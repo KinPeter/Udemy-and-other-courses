@@ -1,0 +1,82 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==== A FLOATED TOP NAVIGATION ==== */
+
+nav {
+  background-color: rgba(0,0,0,.9);
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  display: block;
+  padding: .5rem 1rem;
+  color: #fff;
+}
+
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .15s ease-in-out;
+}
+
+.sign-up {
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 9999px;
+}
+
+.sign-up:hover {
+  color: #000;
+  background-color: #fff;
+  transition: background-color .15s ease-in-out;
+}
+
+@media (min-width: 768px) {
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  nav a {
+    float: right;
+  }
+
+  .home {
+    float: left;
+  }
+
+    /* Clearfix */
+    nav::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+
+}
+
+section {
+  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
+}
+
+@media (min-width: 768px) {
+
+  section {
+    width: 60%;
+    margin: 5.25rem auto 1.25rem;
+  }
+
+}
+
+p {
+  margin-bottom: 1.25rem;
+  padding: .5rem;
+}

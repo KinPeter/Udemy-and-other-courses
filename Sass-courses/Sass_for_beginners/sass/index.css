@@ -1,0 +1,83 @@
+html,
+body,
+ul,
+li {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+body {
+  background: lightgreen;
+  font-family: sans-serif, "cursive";
+}
+
+.container {
+  width: 80%;
+  background: #62d662;
+}
+
+.container nav ul li {
+  font-size: 1.5em;
+}
+
+.container nav ul li:nth-child(2) {
+  font-size: 1.8em;
+}
+
+.container nav a {
+  text-decoration: none;
+}
+
+.transform {
+  width: 150px;
+  height: 80px;
+  background-color: yellow;
+  -webkit-transform: rotate(20deg) scale(1.5);
+          transform: rotate(20deg) scale(1.5);
+}
+
+.transform-2 {
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  -webkit-transform: rotate(20deg) scale(1.5);
+          transform: rotate(20deg) scale(1.5);
+}
+
+.border, .border2, .element a {
+  border: 1px solid purple;
+  padding: 10px;
+  color: brown;
+}
+
+.border2 {
+  margin: 2rem;
+}
+
+.border {
+  width: 100px;
+  height: 80px;
+}
+
+.border2 {
+  width: 130px;
+  height: 180px;
+}
+
+.element a {
+  text-decoration: none;
+  color: black;
+}
+
+.element a:hover {
+  color: aqua;
+  font-weight: bold;
+}
+
+.header {
+  font-size: 6px;
+  height: 75%;
+  width: 60%;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=index.css.map */

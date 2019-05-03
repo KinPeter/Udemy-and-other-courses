@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no,
+                               minimal-ui">
+    <link rel="stylesheet" href="//cdn.kik.com/app/3.0.0/app.min.css">
+    <style>
+        /* put your styles here */
+        
+        
+    </style>
+</head>
+<body>
+    <!-- put your pages here -->
+    
+    
+    
+    
+    <script src="//zeptojs.com/zepto.min.js"></script>
+    <script src="//cdn.kik.com/app/3.0.0/app.min.js"></script>
+    <script>
+        /* check if Local Storage is allowed in the browser */
+        /*if (typeof(Storage) != "undefined") {
+            alert("Local storage is a go!"); 
+        } else {
+            alert("Please update your browser")
+        } */
+        
+        /* store one item in localstorage - only supports strings */
+        /*if (typeof(Storage) != "undefined") {
+            //localStorage.setItem("name", "Peter"); //stores data in browser cache, permanently - or until the user clears the cache 
+            alert(localStorage.getItem("name"));
+        } */
+        
+        /* to store an array, we have to convert it to JSON, and to get it back, we have to convert it back (parse): */
+        var names = ["Peter", "Cheyun", "Edit"];
+        localStorage.setItem("names", JSON.stringify(names));
+        
+        /*and to get it back: */
+        var storedNames = JSON.parse(localStorage.getItem("names"));
+        var result = "";
+        
+        for (var i = 0; i < storedNames.length; i++) {
+             result += storedNames[i] + ", ";
+        }
+        alert(result);
+        
+        
+    </script>
+</body>
+</html>

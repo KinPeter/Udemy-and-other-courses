@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Peter's Geocoder</title>
+    <link href="../static/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Geocoder</h1>
+      <h3>Please upload a CSV file. Note that the file must contain a column named <em>Address</em> or <em>address</em>.</h3>
+
+      <form action="{{url_for('table')}}", method="POST", enctype="multipart/form-data">
+        <input type="file" accept=".csv" name="file">
+        <br>
+        <button type="submit"> Upload </button>
+      </form>
+      <div class="output">
+        {{text | safe}}
+        {% include btn ignore missing %}
+      </div>
+    </div>
+  </body>
+</html>

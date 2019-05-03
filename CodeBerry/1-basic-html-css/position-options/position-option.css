@@ -1,0 +1,26 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .85);
+}
+
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .85);
+  position: relative; /*az eredeti helyéhez _képest_ pozicionál*/
+  
+  /*position: static; - az eredeti helyére teszi*/
+  
+  top: 10px;    /*eltolja x pixellel fentről, stb */
+  left: 20px;
+}
+
+#box-03 {
+  background-color: hsla(332, 69%, 51%, .85);
+}
+
+#box-04 {
+  background-color: hsla(279, 60%, 44%, .85);
+}

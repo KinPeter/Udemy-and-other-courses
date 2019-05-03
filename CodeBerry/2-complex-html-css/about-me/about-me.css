@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'News Cycle', sans-serif;
+  color: #47473D;
+  background-color: #fcffdc;
+  font-size: 1.25rem;
+}
+
+.cover {
+  background: url(https://kinpeter.000webhostapp.com/dongdaemun.jpg);
+  display: table;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 66% center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hero-text-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-text {
+  margin: 0 auto;
+  padding: 1rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #FCFFDC;
+  text-shadow: 2px 2px black;
+  padding: 1rem;
+  margin-bottom: 0;  
+}
+
+.hero-text span {
+  font-size: 1rem; 
+  color: #FCFFDC;
+  text-shadow: 2px 2px black;
+}
+
+.profile-pic {
+  text-align: center;
+  margin: 2rem;
+}
+
+img {
+  width: 50%;
+  max-width: 250px;
+  border: 1px solid #47473D;
+  border-radius: 50%;
+  box-shadow:  hsla(0, 0%, 0%, .8) 5px 5px 20px;
+}
+
+
+/* ====== NAVIGATION ====== */
+nav {
+  font-size: 0px;
+  /*ezzel nem lesz térköz (whitespace) az elemek közt */
+  box-shadow:  hsla(0, 0%, 0%, .8) 5px 5px 20px;
+}
+nav ul {
+  background-color: #47473D;
+  text-align: center;
+}
+nav li {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  border-top: 1px solid #FCFFDC;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #FCFFDC;
+  display: block; /* Ettől lesz az egész li elem kattintható! */
+}
+nav a:hover {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.about-me,
+.portfolio,
+.contact {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2rem;
+  text-shadow: 1px 1px hsla(0, 0%, 0%, .8);
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.about-me::after,
+.portfolio::after {
+  display: block;
+  content: "";
+  background-color: #47473D;
+  opacity: .6;
+  height: 2px;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.portfolio {
+  display: block;
+}
+
+.flicker-box {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.flicker span {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: .5rem;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px hsla(0, 0%, 0%, .8);
+}
+
+.flicker a:hover,
+.contact a:hover {
+  font-size: 120%;
+  transition: font-size .1s ease-in-out;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+.contact li {
+  display: inline;
+  margin: 0 .3rem;
+}
+.contact h2 {
+  padding: 1rem;
+}
+
+
+footer {
+  background-color: #47473D; 
+  height: 3rem;
+  display: table;
+  width: 100vw;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: 0.025rem;
+  display: block;  /*azért kell, hogy érvényes legyen rá a box-érték, mint a margó*/
+}
+
+/* MEDIA QUERY A TABLET ÉS DESKTOP NÉZETHEZ */
+
+@media (min-width: 600px) {
+  nav li {
+    display: inline-block;
+    border-top: none;
+    width: 7.5rem;
+  }
+  nav {
+    border-top: 1px solid #FCFFDC;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .about-me {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .profile-pic, 
+  .introduction, 
+  h2 {
+    display: block;
+  }
+  
+  .about-me h2 {
+    text-align: left;
+    padding-bottom: 1rem;
+  }
+  img {
+    width: 15vw;
+  }
+  .profile-pic {
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    float: left;
+    text-align: left;
+  }
+  
+  .portfolio,
+  .contact {
+    display: inline-block;
+    width: 38%;
+    margin: 0;
+    vertical-align: top;
+  }
+  
+  .portfolio {
+    margin-left: 6.5rem;
+    margin-right: 2.5rem;
+  }
+  
+  .portfolio::after {
+    display: none;
+  }
+  
+  footer {
+    margin-top: 1rem;
+  }
+  
+  .cover {
+    height: 42vh;
+    background-position: center 53%;
+  }
+  
+  .hero-text h1 {
+    font-size: 5rem;
+  }
+  .hero-text span {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+/*
+https://kinpeter.000webhostapp.com/dongdaemun.jpg
+
+https://kinpeter.000webhostapp.com/pk_me.jpg
+
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'News Cycle', sans-serif;
+*/

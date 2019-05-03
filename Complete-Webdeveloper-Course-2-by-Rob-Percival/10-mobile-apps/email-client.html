@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+    <meta name="viewport" content="width=device-width,
+                               initial-scale=1.0,
+                               maximum-scale=1.0,
+                               user-scalable=no,
+                               minimal-ui">
+    <link rel="stylesheet" href="appjs/app.min.css">
+    <style>
+        /* put your styles here */
+        
+        
+    </style>
+</head>
+<body>
+    <div class="app-page" data-page="home">
+        <div class="app-topbar blue">
+            <div class="app-title">Send an email</div>
+        </div>
+        <div class="app-content">
+            <p class="app-section">Click below to send an email</p>
+            <div class="app-section" id="contact-list"></div>
+            <div class="app-section">
+                <div class="app-button" id="new-user">Send to new user</div>
+            </div>
+            <div class="app-section">
+                <div class="app-button" id="clear-contacts">Clear contact list</div>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    <div class="app-page" data-page="sendemail">
+        <div class="app-topbar blue">
+            <div class="app-title"><span class="app-icon"></span>Send an email</div>
+            <div class="right app-button" data-back>Done</div>
+        </div>
+        <div class="app-content">
+            <div class="app-section" id="alert"></div>
+            <div class="app-section">
+                From: <input class="app-input" placeholder="Sender email address" id="sender-email">
+            </div>
+            <div class="app-section">
+                To: <input class="app-input" placeholder="Recipient email address" id="recipient-email">
+            </div>
+            <form class="app-section">
+                <input class="app-input" name="subject" id="subject" placeholder="Subject">
+                <textarea class="app-input" name="message" id="message" placeholder="Message"></textarea>
+                <div class="app-button green app-submit" id="send-button">Send</div>
+            </form>
+        </div>
+    </div>
+    
+    
+    
+    <script src="appjs/zepto.js"></script>
+    <script src="appjs/app.min.js"></script>
+    <script>
+    //=========== HOME PAGE ===========================================    
+        App.controller('home', function (page) {
+                
+            if (typeof localStorage !== 'undefined') {
+                
+                //if user click on "send to new user", remove the saved recipient email and load the send page without it
+                $(page).find("#new-user").clickable().on("click", function() {
+                    if (localStorage.getItem("recipient-email") !== null){
+                        localStorage.removeItem("recipient-email");
+                    }
+                    App.load("sendemail");
+                    
+                });
+                
+                //check if recipient list is saved or not, if yes, load it and show on home page "contact list"
+                if (localStorage.getItem("recipient-list") !== null) {
+                    var recipientList = JSON.parse(localStorage.getItem("recipient-list"));
+                    //loop through the array and add as lines on html
+                    $.each(recipientList, function(index,value) {
+                        $(page).find("#contact-list").append('<div class="app-button redirect"> ' + value + '</div>');
+                    });
+                    $(page).find("#contact-list").show();
+                    // if these emails are clicked, save it and then go to "sendemail" page
+                    $(page).find(".redirect").clickable().on("click", function () {
+                        localStorage.setItem("recipient-email", $(this).html());
+                        App.load("sendemail");
+                        
+                    });
+                } else {
+                    // if contact list is not saved, hide the whole list
+                    $(page).find("#contact-list").hide();
+                };
+                
+                //
+                $(page).find("#clear-contacts").on("click", function() {
+                    if (localStorage.getItem("recipient-list") !== null){
+                        localStorage.removeItem("recipient-list");
+                    }
+                    App.load("home");
+                })
+            }
+	
+        });
+        
+    //=========== SEND PAGE ===========================================        
+        App.controller('sendemail', function (page) {
+            
+            //initially hide the alert field div
+            $(page).find("#alert").hide();
+            
+            if (typeof localStorage !== 'undefined') {
+                // if the sender email is saved, set it as sender email
+                if (localStorage.getItem("sender-email") !== null) {
+                    $(page).find("#sender-email").val(localStorage.getItem("sender-email"));
+                }
+                
+                // if the recipient email is saved, set it as recipient email
+                if (localStorage.getItem("recipient-email") !== null) {
+                    $(page).find("#recipient-email").val(localStorage.getItem("recipient-email"));
+                }
+                        
+            }
+            
+            
+            $(page).find('#send-button')
+                .clickable()
+                .on('click', function() {
+                    //attempt to send an email
+                    $.ajax({
+                        type: 'GET',
+                        url: 'http://ptkin.net/udemy-webdev/mobileapps/sendemail.php?callback=response',
+                        // data to be added to query string:
+                        data: { 
+                            to: $("#recipient-email").val(),
+                            from: $("#sender-email").val(),
+                            subject: $("#subject").val(),
+                            message: $("#message").val()
+                        },
+                        // type of data we are expecting in return:
+                        dataType: 'jsonp',
+                        timeout: 300,
+                        context: $('body'),
+                        success: function(data){
+                            
+                            //
+                            if (data.success == true) {
+                                $(page).find("#alert").html("Your email was sent successfully").show();
+                            } else {
+                                $(page).find("#alert").html("Your email could not be sent.").show();
+                            }
+                            
+                        },
+                        error: function(xhr, type){
+                            $(page).find("#alert").html("Your email could not be sent.").show();
+                        }
+                    })
+                
+                    if (typeof localStorage !== 'undefined') {
+                        //save sender email to local storage
+                        localStorage.setItem("sender-email", $("#sender-email").val());
+                        
+                        //save recipient email(s) to local storage as an array
+                        var recipientList = new Array();
+                        if (localStorage.getItem("recipient-list") !== null) {
+                            recipientList = JSON.parse(localStorage.getItem("recipient-list"));
+                        }
+                            //check if the email is already saved, if not, add it to the array
+                        if ($.inArray($("#recipient-email").val(), recipientList) == -1) {
+                            recipientList.push($("#recipient-email").val());
+                            recipientList.sort();
+                            localStorage.setItem("recipient-list", JSON.stringify(recipientList));
+                            console.log(recipientList);
+                        }
+                        
+                    } else {
+                        //alert user we couldn't save data
+                    }
+                
+            });
+	
+        });
+
+        try {
+            App.restore();
+        } catch (err) {
+            App.load('home');
+        }
+    </script>
+</body>
+</html>
