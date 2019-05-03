@@ -5,7 +5,7 @@
 
 ### Contents:
 
-[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-)  
+[Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js-) / [*#toCode*](/Basic-Algorithms-JS) 
 [BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game-)  
 [CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#codeberry-)  
 [Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#complete-javascript-course-by-jonas-schmedtmann-)  
@@ -19,9 +19,10 @@
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
-## Basic-Algorithms-JS [*#toCode*](/Basic-Algorithms-JS)
+## Basic-Algorithms-JS 
 
 > Contains examples of the basic algorithms below:
+[*#toCode*](/Basic-Algorithms-JS)
 
 - Summary / *Összegzés*
 - Counting / *Megszámolás*
