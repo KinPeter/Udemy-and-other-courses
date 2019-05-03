@@ -19,7 +19,7 @@
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
-## Basic-Algorithms-JS [#](#Basic-Algorithms-JS)
+## Basic-Algorithms-JS [*#toCode*](/Basic-Algorithms-JS)
 
 > Contains examples of the basic algorithms below:
 
