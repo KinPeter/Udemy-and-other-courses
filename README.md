@@ -22,7 +22,6 @@
 ## [:file_folder:](/Basic-Algorithms-JS "Go to code folder") Basic-Algorithms-JS  
 
 > Contains examples of the basic algorithms below  
- 
 
 - Summary / *Összegzés*
 - Counting / *Megszámolás*
@@ -37,21 +36,21 @@
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
-## BeCube-Python-Adventure-game [#](#BeCube-Python-Adventure-game)
+## [:file_folder:](/BeCube-Python-Adventure-game "Go to code folder") BeCube-Python-Adventure-game 
 
 > Adventure game in Python we wrote during BeCube programming basics course
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## CodeBerry [#](#CodeBerry)
+## [:file_folder:](/CodeBerry "Go to code folder") CodeBerry 
 
 > Projects include basics of HTML, CSS, Bootstrap, JavaScript and a bit of Node.js.
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Complete-JavaScript-Course-by-Jonas-Schmedtmann [#](#Complete-JavaScript-Course-by-Jonas-Schmedtmann)
+## [:file_folder:](/Complete-JavaScript-Course-by-Jonas-Schmedtmann "Go to code folder") Complete-JavaScript-Course-by-Jonas-Schmedtmann 
 
 >All code from Udemy - Complete JavaScript Course by Jonas Schmedtmann
 
@@ -67,7 +66,7 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Complete-Node-JS-Course-by-Andrew-Mead [#](#Complete-Node-JS-Course-by-Andrew-Mead)
+## [:file_folder:](/Complete-Node-JS-Course-by-Andrew-Mead "Go to code folder") Complete-Node-JS-Course-by-Andrew-Mead 
 
 > All code from Udemy - Complete Node JS Course by Andrew Mead
 
@@ -106,7 +105,7 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Complete-Webdeveloper-Course-2-by-Rob-Percival [#](#Complete-Webdeveloper-Course-2-by-Rob-Percival)
+## [:file_folder:](/Complete-Webdeveloper-Course-2-by-Rob-Percival "Go to code folder") Complete-Webdeveloper-Course-2-by-Rob-Percival 
 
 > All code from Udemy - Complete Webdeveloper Course 2.0 by Rob Percival
 
@@ -124,7 +123,7 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Python-by-in28minutes [#](#Python-by-in28minutes)
+## [:file_folder:](/Python-by-in28minutes "Go to code folder") Python-by-in28minutes 
 
 > Code created during the online course: [Python Programming for Beginners - Learn in 100 Easy Steps](https://www.udemy.com/python-tutorial-for-beginners/) 
 
@@ -136,7 +135,7 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Python-mega-course-by-Ardit-Sulce [#](Python-mega-course-by-Ardit-Sulce)
+## [:file_folder:](/Python-mega-course-by-Ardit-Sulce "Go to code folder") Python-mega-course-by-Ardit-Sulce 
 
 **Basic scripts in the following topics:**
 - Beyond basics : datetime, file handling, functions
@@ -165,7 +164,7 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Python-print-chessboard [#](#Python-print-chessboard)
+## [:file_folder:](/Python-print-chessboard "Go to code folder") Python-print-chessboard 
 
 > Printing chessboard with Python
 From the Udemy online course [Python 1200: Practice for Beginners](https://www.udemy.com/python-1200/)
@@ -173,7 +172,7 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## SASS-Courses [#](#Sass-Courses)
+## [:file_folder:](/Sass-courses "Go to code folder") SASS-Courses 
 
 > Code from two different Sass basic courses from Udemy
 
@@ -184,8 +183,9 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
-## Short-JS-Courses [#](#Short-JS-Courses) 
-All code from some Udemy JavaScript Courses
+## [:file_folder:](/Short-JS-courses "Go to code folder") Short-JS-Courses 
+
+> All code from some Udemy JavaScript and jQuery Courses
 
 **Advanced-and-OOP-JS**
 - Functions with any number of arguments
