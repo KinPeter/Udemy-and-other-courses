@@ -1,0 +1,8 @@
+div {
+  width: 200px;
+  line-height: 1.4;
+  background: url("../images/novariable.jpg") no-repeat red;
+  -webkit-box-shadow: 1px 1px 2px #bbb;
+          box-shadow: 1px 1px 2px #bbb;
+}
+/*# sourceMappingURL=SASS.css.map */

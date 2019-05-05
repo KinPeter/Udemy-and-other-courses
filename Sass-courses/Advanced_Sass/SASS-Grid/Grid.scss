@@ -1,0 +1,29 @@
+#grid > div {
+    height: 25px;
+    background: #ccc;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    float: left;
+}
+
+$max: 16;
+
+@for $i from 1 through $max {
+    $equ: 100% / $i;
+    #grid.cell-#{ $i } > div {
+        width: $equ;
+    }
+}
+
+$map: ( 1024: 12, 768: 6, 576: 3 );
+
+@each $key, $val in $map {
+    @media all and (max-width: $key + px) {     
+        @for $i from 1 through $val {
+            $equ: 100% / $i ;
+            #grid.cell-#{$key}-#{$i} > div {
+            width: $equ;
+            }
+        }
+    }
+}
