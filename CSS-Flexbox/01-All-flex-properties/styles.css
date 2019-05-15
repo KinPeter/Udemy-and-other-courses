@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+.container {
+    border: 6px solid black;
+    display: flex;
+    height: 400px;
+    /* flex-direction: column; */
+    /* flex-direction: row | row-reverse | column | column-reverse  */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap | wrap | wrap-reverse */
+
+    flex-flow: row wrap; /*shorthand for direction+wrap*/
+
+    justify-content: space-between;
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;     */
+
+    align-items: baseline;
+    /* align-items: stretch | flex-start | flex-end | center | baseline */
+
+    align-content: space-evenly;
+    /* align-content: stretch | flex-start | flex-end | center | space-between | space-around | space-evenly */
+}
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+
+    order: 0;
+    /* by default all items are order: 0;
+    order property will override the html order */
+
+    /* by default flex-grow is 0 - items do not grow */
+    flex-grow: 1;
+    /* when all items are set to the same value, they all grow evenly to take up all the available space */
+
+    /* by default flex-shrink is set to 1 - items shrink as much as they can if screen size decreases */
+    flex-shrink: 1;
+    /* if set to 0, they do not shrink at all */
+    /* width: 8rem; */
+
+}
+.item-1 {
+    background-color: #B4BF35;
+    padding-bottom: 3rem;
+
+    flex-basis: 200px; /* takes same values as width, default is auto */
+    /* always use flex-basis instead of width when working with flex items because 
+    flex-grow and flex-shrink also apply on top of flex-basis property! */
+
+    align-self: center;
+    /* align-self used to align items individually, default is auto so it inherits 
+    the "align-items" property from the parent container */
+    /* align-self: flex-start | flex-end | center | stretch | auto     */
+}
+.item-2 {
+    background-color: #B95F21;
+    padding-top: 5rem;
+    align-self: flex-end;  
+
+    /* flex-grow: 2;
+    flex-shrink: 5;
+    flex-basis: 200px; */
+    flex: 1 5 150px; /* shorthand for grow+shrink+basis, default 0 1 auto */
+}
+.item-3 {
+    background-color: #1C4C56;
+    font-size: 3rem;
+
+    order: 1;  
+
+    flex-shrink: 4;
+    /* if shrink set to 4 it will shink 4 times more than other items */
+}
+.item-4 {
+    background-color: #CfB276;
+    padding-top: 100px;
+    padding-bottom: 100px;    
+    align-self: stretch;
+}
+.item-5 {
+    background-color: #6B0803;
+    align-self: flex-start;  
+}
+.item-6 {
+    background-color: #1C4C56;
+    flex-grow: 3;
+    /* the highest flex-grow item will be the largest relative to the others to take up the available space */
+}
+.item-7 {
+    background-color: #B95F21;
+    order: 2;
+}
+.item-8 {
+    background-color: #01243A;
+}
+.item-9 {
+    background-color: #AAD041;
+    order: 1;
+}

@@ -11,6 +11,7 @@
 [Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#complete-javascript-course-by-jonas-schmedtmann)  
 [Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#complete-node-js-course-by-andrew-mead)  
 [Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#complete-webdeveloper-course-2-by-rob-percival)  
+[CSS Flexbox](https://github.com/KinPeter/Udemy-and-other-courses#css-flexbox)  
 [Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes)  
 [Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce)  
 [Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard)  
@@ -119,6 +120,17 @@
 - API's - *Google Maps API, Twitter API*
 - Mobile Apps - *APPS.JS, Adobe PhoneGap Build*
 - HTML5 & CSS3 Special Features - *forms, canvas, audio, video, selectors, pseudo classes, transformations, calc*
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## CSS-Flexbox 
+
+> [:file_folder:](/CSS-Flexbox "Go to code folder") Review of all CSS Flexbox properties and some example usecases 
+
+- Flex container properties
+- Flex item properties
+- Example usecases e.g. navbar, holy grail layout
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
