@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG</title>
+    <style>
+        svg {
+            border: 1px solid black;
+        }
+        div {
+            background: url(svg1.svg);
+            width: 200px;
+            height: 200px; 
+        }
+    </style>
+</head>
+<body>
+    <p>inline:</p>
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="50"/>
+        <!-- Coords go from top-left corner, only positive values are visible -->
+    </svg>
+    <br>
+    <p>img:</p>
+    <img src="svg1.svg" alt="imported">
+    <br>
+    <p>iframe:</p> 
+    <iframe src="svg1.svg" width="200" height="200" frameborder="1"></iframe>
+    <div>div's background is SVG</div>
+</body>
+</html>

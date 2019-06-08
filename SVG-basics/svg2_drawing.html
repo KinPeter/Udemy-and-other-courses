@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG Drawing</title>
+    <style>
+        svg {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    
+    <svg width="300" height="300">
+        <line x1="30" y1="30" x2="200" y2="130" style="stroke: blue; stroke-width:3" />
+        <line x1="200" y1="130" x2="100" y2="50" style="stroke: red; stroke-width:3" />
+        <!--  -->
+    </svg> 
+    <br>
+    <svg width="300" height="300">
+        <circle cx="100" cy="100" r="50" style="stroke:blue; stroke-width:5; fill:grey;" />
+        <circle cx="130" cy="130" r="50" style="stroke:red; stroke-width:5; fill:cyan; fill-opacity:0.4" />
+        <!--  -->
+    </svg> 
+    <br>   
+    <svg width="300" height="300">
+        <rect x="30" y="30" width="200" height="150" style="stroke:blue; stroke-width:3px; fill:grey;" rx="100" ry="30" />
+        <!-- rx,ry : rounding -->
+        <rect x="50" y="50" width="200" height="150" style="stroke:red; stroke-width:3px; fill:red; opacity:0.3" rx="100" ry="30" />
+    </svg>
+    <br>
+    <svg width="300" height="300">
+        <text x="60" y="60" style="stroke: blue; stroke-width:2">Hello</text>
+        <!--  -->
+    </svg> 
+    <br>
+</body>
+</html>

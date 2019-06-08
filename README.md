@@ -11,11 +11,13 @@
 [Complete JavaScript Course by Jonas Schmedtmann](https://github.com/KinPeter/Udemy-and-other-courses#complete-javascript-course-by-jonas-schmedtmann)  
 [Complete Node JS Course by Andrew Mead](https://github.com/KinPeter/Udemy-and-other-courses#complete-node-js-course-by-andrew-mead)  
 [Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#complete-webdeveloper-course-2-by-rob-percival)  
+[CSS Animations](https://github.com/KinPeter/Udemy-and-other-courses#css-animations)  
 [CSS Flexbox](https://github.com/KinPeter/Udemy-and-other-courses#css-flexbox)  
 [Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes)  
 [Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce)  
 [Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard)  
 [SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses)  
+[SVG basics](https://github.com/KinPeter/Udemy-and-other-courses#svg-basics)  
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
@@ -124,6 +126,17 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
+## CSS-Animations 
+
+> [:file_folder:](/CSS-Animations "Go to code folder") Introduction to animating CSS properties 
+
+- Transform and Animation properties
+- Keyframes usage
+- Example for fancy dropdown, checkbox, spinners
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
 ## CSS-Flexbox 
 
 > [:file_folder:](/CSS-Flexbox "Go to code folder") Review of all CSS Flexbox properties and some example usecases 
@@ -193,6 +206,17 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 - Sass API and compiling CSS
 - Basic Sass Syntax
 - Sass Extended Syntax
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## SVG-basics 
+
+> [:file_folder:](/SVG-basics "Go to code folder") Basics of SVG graphics in HTML
+
+- How to place or import SVG into HTML
+- Draw basic lines, rectangles and circles
+- Styling shapes
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
