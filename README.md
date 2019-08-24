@@ -19,6 +19,7 @@
 [SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses)  
 [SVG basics](https://github.com/KinPeter/Udemy-and-other-courses#svg-basics)  
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
+[Svelte - The Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
@@ -259,5 +260,25 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
+
+## Svelte-Complete-Guide 
+
+> [:file_folder:](/Svelte-Complete-Guide "Go to code folder") All code from Udemy course Svelte - The Complete Guide by Maximilian Schwarzmüller
+
+**Svelte syntax and API**
+- Base syntax
+- Conditionals and loops
+- Components deep dive
+- Bindings and forms
+- State and stores
+- Animations and transitions
+- HTTP
+- Special elements
+- Routing and SSR with Sapper
+
+**Course project**
+- MeetUs - webapp with Firebase
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
