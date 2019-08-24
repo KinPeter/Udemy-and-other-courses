@@ -1,7 +1,7 @@
 # Udemy and other course code
 
 > This repo contains all my code from several online courses and tutorials, especially from Udemy.  
-> Languages include `HTML`, `CSS`, `Sass`, `JavaScript`, `JQuery`, `Node.js`, `PHP` and `Python`.
+> Languages include `HTML`, `CSS`, `Sass`, `JavaScript`, `TypeScript`,`JQuery`, `Node.js`, `PHP` and `Python` with frameworks/libraries like `Angular`, `React` and `Svelte`.
 
 ### Contents:
 
