@@ -5,6 +5,7 @@
 
 ### Contents:
 
+[Angular 8 - The Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#angular-complete-guide)  
 [Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js)  
 [BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game)  
 [CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#codeberry)  
@@ -22,6 +23,22 @@
 [Svelte - The Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
+
+## Angular-Complete-Guide 
+
+> [:file_folder:](/Angular-Complete-Guide "Go to code folder") Some of the code from Udemy course Angular 8 - The Complete Guide by Maximilian Schwarzmüller
+
+**Angular API**
+- Angular Animations
+- Template Driven Forms
+- Reactive Forms
+- PWAs with Service Workers
+
+**Course project**
+- Recipe Book - webapp with Firebase
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
 
 ## Basic-Algorithms-JS  
 
