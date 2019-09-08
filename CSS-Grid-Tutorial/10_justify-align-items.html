@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<title>CSS Grid</title>
+<link rel="stylesheet" href="basic.css">
+<style>
+.container {
+    height: 100%; 
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    /* justify-items: end;
+    align-items: center; */
+    /* default is stretch at both justify-items and align-items */
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+.menu {
+    grid-column: 1 / 3;
+}
+
+.content {
+    grid-column: 3 / -1;
+    /* justify-self: center;
+    align-self: end; */ 
+}
+
+.footer {
+    grid-column: 1 / -1;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONTENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+
+</html>

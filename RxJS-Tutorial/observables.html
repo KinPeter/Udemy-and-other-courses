@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RxJS Observables</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <div class="container" style="margin-top: 2rem">
+        <button class="waves-effect waves-light btn">Click Me</button>
+    </div>
+
+
+
+<script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>    
+<script>
+
+const button = document.querySelector('button');
+
+/* button.addEventListener('click', (event) => {
+    console.log(event);
+}) */
+
+// Rx.Observable.fromEvent(button, 'click')
+//     .throttleTime(1000) // debounce
+//     .map((event) => {
+//         return event.clientX
+//     })
+//     .subscribe((coordinate) => {
+//         console.log('clicked x:', coordinate);
+//     });
+
+// setting up observer object
+const observer = {
+    next: (value) => { console.log(value) },
+    error: (error) => { console.log(error) },
+    complete: () => { console.log('Completed!') }
+}
+// Rx.Observable.fromEvent(button, 'click')
+//     .subscribe(observer);
+
+// creating an observable and subscription
+const subscription = Rx.Observable.create((observerObject) => {
+    observerObject.next('A value emitted');
+    // observerObject.error('ERROR!');
+    observerObject.next('A second value');
+    setTimeout(() => {
+        // observerObject.complete();
+    }, 2000);
+
+    // same outcome as .fromEvent() method above
+    button.onclick = (event) => {
+        observerObject.next(event);
+    }
+})
+.subscribe(observer);
+
+setTimeout(() => {
+    subscription.unsubscribe();
+    console.log('Unsubscribed...');
+}, 5000);
+
+
+
+
+</script>
+</body>
+</html>

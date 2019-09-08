@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title>CSS Grid</title>
+<link rel="stylesheet" href="basic.css">
+<style>
+.container {
+    border: 1px solid black;
+    height: 100%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+
+</html>

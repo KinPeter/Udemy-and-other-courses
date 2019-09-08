@@ -14,10 +14,12 @@
 [Complete Webdeveloper Course 2.0 by Rob Percival](https://github.com/KinPeter/Udemy-and-other-courses#complete-webdeveloper-course-2-by-rob-percival)  
 [CSS Animations](https://github.com/KinPeter/Udemy-and-other-courses#css-animations)  
 [CSS Flexbox](https://github.com/KinPeter/Udemy-and-other-courses#css-flexbox)  
+[CSS Grid](https://github.com/KinPeter/Udemy-and-other-courses#css-grid)  
 [Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes)  
 [Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce)  
 [Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard)  
 [React - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#react-complete-guide)  
+[RxJS Tutorial](https://github.com/KinPeter/Udemy-and-other-courses#rxjs-tutorial)  
 [SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses)  
 [SVG basics](https://github.com/KinPeter/Udemy-and-other-courses#svg-basics)  
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
@@ -167,6 +169,20 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
+## CSS-Grid 
+
+> [:file_folder:](/CSS-Grid-Tutorial "Go to code folder") Review of available CSS Grid properties
+
+- Fraction units and Repeat
+- Positioning, justifing, aligning items
+- Template areas
+- Autofit and minmax
+- Named lines
+- Autofill vs Autofit
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
 ## Python-by-in28minutes 
 
 > [:file_folder:](/Python-by-in28minutes "Go to code folder") Code created during the online course: [Python Programming for Beginners - Learn in 100 Easy Steps](https://www.udemy.com/python-tutorial-for-beginners/) 
@@ -232,6 +248,18 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 **Course project**
 - Burger Builder - webapp with Firebase
 - Burger Builder - webapp with Firebase using Redux
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## RxJS-Tutorial
+
+> [:file_folder:](/RxJS-Tutorial "Go to code folder") Basic syntax and some examples of RxJS
+
+- Observables and Observers
+- Subjects
+- Some examples of RxJS Operators
+
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 

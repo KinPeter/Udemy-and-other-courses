@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title>CSS Grid</title>
+<link rel="stylesheet" href="basic.css">
+<style>
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+}
+
+.container2 {
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 100px 100px;
+}
+
+
+</style>
+</head>
+
+<body>
+    <h1 class="title">AUTO-FIT</h1>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h1 class="title">AUTO-FILL</h1>
+    <div class="container2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RxJS MergeMap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="container" style="margin-top: 2rem">
+        <!-- <button class="waves-effect waves-light btn">Click Me</button> -->
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="text" type="text" class="">
+                <label for="text">Text</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="text2" type="text" class="">
+                <label for="text2">Text</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <h4 class="red-text text-lighten-1">Combined value:</h4>
+                <h5 class="purple-text text-darken-4"></h5>
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+<script>
+
+const input1 = document.querySelector('#text');
+const input2 = document.querySelector('#text2');
+const output = document.querySelector('h5');
+
+const observable1 = Rx.Observable.fromEvent(input1, 'input');
+const observable2 = Rx.Observable.fromEvent(input2, 'input');
+
+observable1.mergeMap(
+    (event1) => {
+        return observable2.map((event2) => {
+            return event1.target.value + ' ' + event2.target.value;
+        });
+    }
+).subscribe((combinedValue) => {
+    output.textContent = combinedValue;
+})
+
+
+// setTimeout(() => {
+//     subscription.unsubscribe();
+//     console.log('Unsubscribed.');
+// }, 30000)
+
+</script>
+</body>
+
+</html>
