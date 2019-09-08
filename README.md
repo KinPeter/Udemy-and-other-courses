@@ -5,7 +5,7 @@
 
 ### Contents:
 
-[Angular 8 - The Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#angular-complete-guide)  
+[Angular 8 - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#angular-complete-guide)  
 [Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js)  
 [BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game)  
 [CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#codeberry)  
@@ -17,10 +17,11 @@
 [Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes)  
 [Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce)  
 [Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard)  
+[React - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#react-complete-guide)  
 [SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses)  
 [SVG basics](https://github.com/KinPeter/Udemy-and-other-courses#svg-basics)  
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
-[Svelte - The Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
+[Svelte - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
@@ -213,6 +214,24 @@
 
 > [:file_folder:](/Python-print-chessboard "Go to code folder") Printing chessboard with Python
 From the Udemy online course [Python 1200: Practice for Beginners](https://www.udemy.com/python-1200/)
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## React-Complete-Guide 
+
+> [:file_folder:](/React-Complete-Guide "Go to code folder") Some of the code from Udemy course React - The Complete Guide by Maximilian Schwarzmüller
+
+**React API**
+- Animations in React
+- Assignments of base syntax, lists and conditions
+- React Hooks
+- Replacing Redux with Context API
+- Replacing Redux with Custom Store Hooks 
+
+**Course project**
+- Burger Builder - webapp with Firebase
+- Burger Builder - webapp with Firebase using Redux
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 

@@ -1,0 +1,8 @@
+.char {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin-right: .5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
