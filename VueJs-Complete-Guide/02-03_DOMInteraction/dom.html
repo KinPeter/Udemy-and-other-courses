@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VueJS</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+    
+<div id="app">
+    <input type="text" v-on:input="changeTitle">
+    <h1 v-once>{{ title }}</h1>
+    <p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
+    <hr>
+    <p v-html="finishedLink"></p>
+</div>
+
+<hr>
+
+<div id="exercise">
+    <!-- 1) Fill the <p> below with your Name and Age - using Interpolation -->
+    <p>VueJS is pretty cool - {{ name }} ({{ age }})</p>
+    <!-- 2) Output your age, multiplied by 3 -->
+    <p>{{ age * 3 }}</p>
+    <!-- 3) Call a function to output a random float between 0 and 1 (Math.random()) -->
+    <p>{{ getRandom() }}</p>
+    <!-- 4) Search any image on Google and output it here by binding the "src" attribute -->
+    <div>
+        <img v-bind:src="link" style="width:100px;height:100px">
+    </div>
+    <!-- 5) Pre-Populate this input with your name (set the "value" attribute) -->
+    <div>
+        <input type="text" v-bind:value="name">
+    </div>
+</div>
+
+<hr>
+
+<div id="app-event">
+    <button v-on:click="counter++">Click me</button>
+    <button v-on:click="increase(2, $event)">Click me 2</button>
+    <p>{{ counter }}</p>
+    <p v-on:mousemove="updateCoords">
+        Coordinates: {{ x }}, {{ y }}
+        - <span v-on:mousemove.stop.prevent >DEAD SPOT</span>
+    </p>
+    <input type="text" v-on:keyup.enter.space="alertMe">
+</div>
+
+<hr>
+
+<div id="two-way">
+    <input type="text" v-model="name">
+    <p>{{ name }}</p>
+</div>
+
+<script>
+
+new Vue({
+    el: '#app',
+    data: {
+        title: 'Hello World!',
+        link: 'https://www.google.com',
+        finishedLink: '<a href="https://www.google.com">Google</a>'
+    },
+    methods: {
+        changeTitle: function(event) {
+            this.title = event.target.value;
+        },
+        sayHello: function() {
+            this.title = 'Hello!'
+            return this.title;
+        }
+    }
+});
+new Vue({
+    el: '#exercise',
+    data: {
+        name: 'Peter',
+        age: '34',
+        link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwGhEUfGGf-zWXtBHSLWM0AzPuCdhZ5pcCz1oC02AElNSUIRTq'
+    },
+    methods: {
+        getRandom: function() {
+            return Math.random() * 100;
+        }
+    }
+});
+new Vue({
+    el: '#app-event',
+    data: {
+        counter: 0,
+        x: 0,
+        y: 0
+    },
+    methods: {
+        increase: function(step, event) {
+            this.counter += step;
+            console.log(event);
+        },
+        updateCoords: function(event) {
+            this.x = event.clientX;
+            this.y = event.clientY;
+        },
+        alertMe(event) {
+            alert('Alert! ' + event.key);
+        }
+    }
+});
+new Vue({
+    el: '#two-way',
+    data: {
+        name: 'Peter'
+    }
+});
+
+
+</script>
+</body>
+</html>

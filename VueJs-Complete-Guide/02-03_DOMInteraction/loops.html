@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VueJS</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+
+<div id="app">
+    <ul>
+        <!-- <li v-for="ingredient in ingredients">{{ ingredient }} ({{ i }})</li> -->
+        <li v-for="(ingredient, i) in ingredients" :key="new Date().getTime()">{{ ingredient }} ({{ i }})</li>
+    </ul>
+    <button @click="ingredients.push('spices')">Add spices</button>
+    <template v-for="(ingredient, index) in ingredients">
+        <h3>{{ ingredient }}</h3>
+        <p>{{ index }}</p>
+    </template>
+    <hr>
+    <ul>
+        <li v-for="person in persons">
+            <!-- <span v-for="value in person">{{ value }} </span> -->
+            <!-- <div v-for="(value, key) in person">{{ key }}: {{ value }}</div> -->
+            <div v-for="(value, key, index) in person">{{ key }}: {{ value }} ({{ index }})</div>
+        </li>
+    </ul>
+    <hr>
+    <span v-for="number in 10">{{ number }} </span>
+</div>
+
+<script>
+
+new Vue({
+    el: '#app',
+    data: {
+        ingredients: ['meat', 'fruit', 'cookies'],
+        persons: [
+            {name: 'Max', age: 27, color: 'red'},
+            {name: 'Anna', age: 'unknown', color: 'blue'}
+        ]
+    },
+});
+
+</script>
+</body>
+
+</html>

@@ -24,6 +24,7 @@
 [SVG basics](https://github.com/KinPeter/Udemy-and-other-courses#svg-basics)  
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
 [Svelte - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
+[VueJS 2 - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#vuejs-complete-guide)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
@@ -342,6 +343,36 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 
 **Course project**
 - MeetUs - webapp with Firebase
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+
+## VueJS-Complete-Guide 
+
+> [:file_folder:](/VueJs-Complete-Guide "Go to code folder") All code from Udemy course VueJS 2 - The Complete Guide by Maximilian Schwarzmüller
+
+**Vue syntax and API**
+- DOM Interaction
+- The Vue Instance
+- Components
+- Communication between components
+- Slots and Dynamic components
+- Forms
+- Directives
+- Filters & Mixins
+- Animations and transitions
+- HTTP with Vue-Resource
+- Routing with Vue Router
+- State management with VueX
+- HTTP with Axios
+- Authentication with JWT
+- Form validation with Vuelidate
+
+**Course projects**
+- MonsterSlayer
+- WonderfulQuotes
+- StockTrader
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
