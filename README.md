@@ -25,6 +25,7 @@
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
 [Svelte - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
 [VueJS 2 - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#vuejs-complete-guide)  
+[Web Components & Stencil JS by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#web-components-and-stencil-js)  
 
 > *Please note some of the text and comments in the code are written in Hungarian.*  
 
@@ -376,4 +377,17 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
+
+## Web-Components-and-Stencil-JS 
+
+> [:file_folder:](/Web-Components-StencilJS "Go to code folder") All code from Udemy course Web Components & Stencil JS by Maximilian Schwarzmüller
+
+- Understanding the basics of Web Components
+- Diving deeper into Web Components
+- More complex components (modal)
+- Stencil - an introduction
+- Stencil basics (side-drawer)
+- Advanced stencil (stock-price & stock-finder)
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal Component</title>
+    <script src="modal.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 2rem;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <pk-modal>
+        <h1 slot="title">Please Confirm</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus.</p>
+    </pk-modal>
+    <p>Please confirm your choice</p>
+    <button>Show details & confirm</button>
+
+    <script>
+        const button = document.querySelector('button');
+        const modal = document.querySelector('pk-modal');
+        
+        button.addEventListener('click', () => {
+            modal.open();
+        })
+        modal.addEventListener('confirm', (event) => {
+            console.log('Confirmed...', event);
+        });
+        modal.addEventListener('cancel', (event) => {
+            console.log('Canceled...', event);
+        });
+
+    </script>
+</body>
+</html>

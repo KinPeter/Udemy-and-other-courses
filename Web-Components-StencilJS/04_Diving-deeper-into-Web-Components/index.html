@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Components</title>
+    <script src="tooltip.js"></script>
+    <script src="confirm-link.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color-primary: #5cc3e6;
+            font-family: sans-serif;
+        }
+
+        pk-tooltip {
+            padding: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <p>
+        <pk-tooltip class="important" text="Web components are a set of standards.">
+            <span class="highlight">Web Components</span>
+        </pk-tooltip> are awesome!
+    </p>
+
+    
+    <pk-tooltip>Here we go!</pk-tooltip>
+    
+    <br>
+    <br>
+
+    <pk-tooltip></pk-tooltip>
+
+
+    <p>
+        <a is="pk-confirm-link" href="https://www.google.com">Google</a>
+    </p>
+    
+</body>
+</html>
