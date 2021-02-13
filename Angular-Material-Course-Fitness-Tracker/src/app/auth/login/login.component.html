@@ -1,0 +1,81 @@
+<section>
+    <form
+        [formGroup]="loginForm"
+        fxLayout="column"
+        fxLayoutAlign="center center"
+        fxLayoutGap="10px"
+        (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <input 
+                type="email" 
+                matInput
+                formControlName="email" 
+                placeholder="Your email">
+            <mat-hint>Please enter a valid email.</mat-hint>
+            <mat-error>Invalid or missing email.</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <input 
+                type="password" 
+                matInput
+                formControlName="password" 
+                placeholder="Your password">
+            <mat-hint>Please enter your password.</mat-hint>
+            <mat-error>Missing password.</mat-error>
+        </mat-form-field>
+        <button 
+            *ngIf="!(isLoading | async)"
+            mat-raised-button
+            color="primary"
+            type="submit"
+            [disabled]="loginForm.invalid">
+            Log in
+        </button>
+        <mat-spinner *ngIf="isLoading | async"></mat-spinner>
+    </form>
+</section>
+
+
+
+<!-- TEMPLATE DRIVEN APPROACH:  -->
+<!-- <section>
+    <form 
+        #f="ngForm"
+        (ngSubmit)="onSubmit(f)"
+        fxLayout="column" 
+        fxLayoutAlign="center center"
+        fxLayoutGap="10px">
+        <mat-form-field>
+            <input 
+                type="email" 
+                matInput 
+                placeholder="Your email"
+                ngModel
+                name="email"
+                required
+                email
+                #emailInput="ngModel">
+            <mat-error *ngIf="emailInput.hasError('required')">Field must not be empty.</mat-error>
+            <mat-error *ngIf="!emailInput.hasError('required')">Email is invalid.</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <input 
+            type="password" 
+            matInput 
+            placeholder="Your password"
+            ngModel
+            name="password"
+            required
+            #pwInput="ngModel">
+            <mat-error>Password is invalid.</mat-error>
+            <mat-error *ngIf="pwInput.hasError('required')">Field must not be empty.</mat-error>
+        </mat-form-field>
+        <button 
+            mat-raised-button
+            color="primary"
+            type="submit"
+            [disabled]="f.invalid">
+            Log in
+        </button>
+    </form>
+</section> -->

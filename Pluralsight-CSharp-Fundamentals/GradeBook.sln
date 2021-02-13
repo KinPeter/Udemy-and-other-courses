@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook", "src\GradeBook\GradeBook.csproj", "{0CBCB30E-9EF4-4431-88F8-D16B51556DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook.Tests", "test\GradeBook.Tests\GradeBook.Tests.csproj", "{BBBB8E51-9ABB-4A2A-8BC8-52DC6D89D01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CBCB30E-9EF4-4431-88F8-D16B51556DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBCB30E-9EF4-4431-88F8-D16B51556DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBCB30E-9EF4-4431-88F8-D16B51556DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBCB30E-9EF4-4431-88F8-D16B51556DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBB8E51-9ABB-4A2A-8BC8-52DC6D89D01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBB8E51-9ABB-4A2A-8BC8-52DC6D89D01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBB8E51-9ABB-4A2A-8BC8-52DC6D89D01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBB8E51-9ABB-4A2A-8BC8-52DC6D89D01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

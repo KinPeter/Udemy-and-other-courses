@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover, a:active {
+    color: lightgray;
+}
+
+.nav-caption {
+    margin-left: 0.5rem;
+}

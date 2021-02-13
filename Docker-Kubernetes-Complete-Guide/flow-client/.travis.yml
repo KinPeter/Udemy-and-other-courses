@@ -1,0 +1,25 @@
+sudo: required
+
+language: node_js
+node_js: 
+  - 10
+
+services: 
+  - docker
+
+before_install:
+  - docker build -t kinp/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true kinp/docker-react npm run test -- --coverage
+
+deploy: 
+  provider: elasticbeanstalk
+  region: "us-west-2"
+  app: "docker-react"
+  env: "Docker-env"
+  bucket_name: "my-s3-bucket-name-123123123"
+  bucker_path: "docker-react"
+  on:
+    branch: master
+# plus IAM keys @ lecture 101-

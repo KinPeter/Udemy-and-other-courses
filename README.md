@@ -1,11 +1,12 @@
 # Udemy and other course code
 
 > This repo contains all my code from several online courses and tutorials, especially from Udemy.  
-> Languages include `HTML`, `CSS`, `Sass`, `JavaScript`, `TypeScript`,`JQuery`, `Node.js`, `PHP` and `Python` with frameworks/libraries like `Angular`, `React` and `Svelte`.
+> Languages include `HTML`, `CSS`, `Sass`, `JavaScript`, `TypeScript`, `C#`, `PHP` and `Python` with frameworks/libraries like `Angular`, `Vue`, `React` and `Svelte`.
 
 ### Contents:
 
 [Angular 8 - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#angular-complete-guide)  
+[Angular Material course - Fitness Tracker](https://github.com/KinPeter/Udemy-and-other-courses#angular-material-course-fitness-tracker)  
 [Basic Algorithms in JS](https://github.com/KinPeter/Udemy-and-other-courses#basic-algorithms-js)  
 [BeCube course Python Adventure game](https://github.com/KinPeter/Udemy-and-other-courses#becube-python-adventure-game)  
 [CodeBerry School](https://github.com/KinPeter/Udemy-and-other-courses#codeberry)  
@@ -15,14 +16,24 @@
 [CSS Animations](https://github.com/KinPeter/Udemy-and-other-courses#css-animations)  
 [CSS Flexbox](https://github.com/KinPeter/Udemy-and-other-courses#css-flexbox)  
 [CSS Grid](https://github.com/KinPeter/Udemy-and-other-courses#css-grid)  
+[Docker-Kubernetes - Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#docker-kubernetes-complete-guide)
+[Flutter - The Complete Guide](https://github.com/KinPeter/Udemy-and-other-courses#flutter-the-complete-guide)
+[FreeCodeCamp - Go Course](https://github.com/KinPeter/Udemy-and-other-courses#fcc-go-course)
+[MEAN stack guide](https://github.com/KinPeter/Udemy-and-other-courses#mean-stack-guide)
+[NestJS Zero to Hero course - Task management](https://github.com/KinPeter/Udemy-and-other-courses#nestjs-course-task-management)
+[NestJS-MongoDB tutorial](https://github.com/KinPeter/Udemy-and-other-courses#nestjs-mongodb-tutorial)
+[NuxtJs - Course Project - Blog](https://github.com/KinPeter/Udemy-and-other-courses#nuxtjs-course-project)
+[Pluralsight - C# Fundamentals](https://github.com/KinPeter/Udemy-and-other-courses#pluralsight-csharp-fundamentals)
 [Python by in28minutes](https://github.com/KinPeter/Udemy-and-other-courses#python-by-in28minutes)  
 [Python Mega Course by Ardit Sulce](https://github.com/KinPeter/Udemy-and-other-courses#python-mega-course-by-ardit-sulce)  
 [Python print chessboard](https://github.com/KinPeter/Udemy-and-other-courses#python-print-chessboard)  
 [React - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#react-complete-guide)  
+[RxJS 6 In Practice](https://github.com/KinPeter/Udemy-and-other-courses#rxjs-in-practice-course)  
 [RxJS Tutorial](https://github.com/KinPeter/Udemy-and-other-courses#rxjs-tutorial)  
 [SASS Courses](https://github.com/KinPeter/Udemy-and-other-courses#sass-courses)  
 [SVG basics](https://github.com/KinPeter/Udemy-and-other-courses#svg-basics)  
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
+[Spring 5 framework course](https://github.com/KinPeter/Udemy-and-other-courses#spring-5-framework-course)  
 [Svelte - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
 [VueJS 2 - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#vuejs-complete-guide)  
 [Web Components & Stencil JS by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#web-components-and-stencil-js)  
@@ -41,6 +52,12 @@
 
 **Course project**
 - Recipe Book - webapp with Firebase
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+## Angular-Material-Course-Fitness-Tracker
+
+> [:file_folder:](/Angular-Material-Course-Fitness-Tracker "Go to code folder") Code from Angular Material Udemy course by Maximilian Schwarzmüller
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
@@ -185,6 +202,69 @@
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
+## Docker-Kubernetes-Complete-Guide
+
+> [:file_folder:](/Docker-Kubernetes-Complete-Guide "Go to code folder") Learn how to use Docker - code contains only Docker part.
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## FCC-Go-Course
+
+> [:file_folder:](/FCC-Go-Course "Go to code folder") GO language basics
+
+- constants
+- primitives
+- variables
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## Flutter-The-Complete-Guide
+
+> [:file_folder:](/Flutter-The-Complete-Guide "Go to code folder") Make native mobile apps with Flutter and Dart
+
+- Flutter framework and UI library
+- Dart language
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## MEAN-stack-guide
+
+> [:file_folder:](/MEAN-stack-guide "Go to code folder") Code from the MEAN Stack Guide Udemy course by Maximilian Schwarzmüller
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## NestJS-course-Task-management
+
+> [:file_folder:](/NestJS-course-Task-management "Go to code folder") "Task management" course project from Udemy: NestJS Zero to Hero course
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## NestJS-MongoDB-tutorial
+
+> [:file_folder:](/NestJS-MongoDB-tutorial "Go to code folder") Tutorial about how to connect MongoDB to a NestJS backend
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## NuxtJs-Course-Project
+
+> [:file_folder:](/NuxtJs-Course-Project "Go to code folder") "Blog" Course Project App from "NuxtJS - VueJS on steroids" course by Maximilian Schwarzmüller
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## Pluralsight-CSharp-Fundamentals
+
+> [:file_folder:](/Pluralsight-CSharp-Fundamentals "Go to code folder") Fundamentals of C# and .Net Core
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
 ## Python-by-in28minutes 
 
 > [:file_folder:](/Python-by-in28minutes "Go to code folder") Code created during the online course: [Python Programming for Beginners - Learn in 100 Easy Steps](https://www.udemy.com/python-tutorial-for-beginners/) 
@@ -250,6 +330,17 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 **Course project**
 - Burger Builder - webapp with Firebase
 - Burger Builder - webapp with Firebase using Redux
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## RxJs-in-practice-course
+
+> [:file_folder:](/RxJs-in-practice-course "Go to code folder") Using RxJS operators and implementing a store
+
+- Operators
+- Store
+
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
@@ -327,6 +418,13 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
 
 
+## Spring-5-framework-course
+
+> [:file_folder:](/Spring-5-framework-course "Go to code folder") Example code built in course Spring Framework 5 - Beginner to Guru
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
 ## Svelte-Complete-Guide 
 
 > [:file_folder:](/Svelte-Complete-Guide "Go to code folder") All code from Udemy course Svelte - The Complete Guide by Maximilian Schwarzmüller
@@ -346,7 +444,6 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 - MeetUs - webapp with Firebase
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
-
 
 
 ## VueJS-Complete-Guide 

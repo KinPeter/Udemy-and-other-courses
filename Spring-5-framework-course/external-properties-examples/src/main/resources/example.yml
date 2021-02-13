@@ -1,0 +1,33 @@
+# this is a comment
+
+name: John
+
+names: # inline comment / how to make an array:
+  - John
+  - Paul
+  - Ringo
+
+pound_sign: "# like this is a value"
+
+book: # object structure
+    author: Joe Buck
+    publisher: Random House
+
+# booleans
+truth: yes
+another_true: True
+more_true: true
+false: no # No, false, FALSE
+
+string_val: "This is it's quote"
+colon_string: "my courses: one two three"
+
+include_new_lines: |
+    this is gonna be
+    stored with the
+    new lines
+
+ignore_new_lines: >
+    this is
+    just one long
+    string in one line
