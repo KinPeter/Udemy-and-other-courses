@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b6d6a43-4129-41bb-9097-a7c3c0b04536" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B956647-017D-4DC1-B8D3-D25EEF012467/ef/ece207e5/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3DC54541-A257-4AC7-826A-004A212A4332/0b/98d8c5e5/Object.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AmmoType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponZoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ammo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AmmoPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BatteryPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FlashlightSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeathHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameEndHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DisplayDamage.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fxVR6VrWU0C1o7INY3C3vpaym5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\Zombie Runner.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\kinpe\code\unity-course\6_Zombie_Runner\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b6d6a43-4129-41bb-9097-a7c3c0b04536" name="Default Changelist" comment="" />
+      <created>1597159723087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597159723087</updated>
+      <workItem from="1597159746941" duration="5618000" />
+      <workItem from="1597252196358" duration="839000" />
+      <workItem from="1597253060253" duration="2258000" />
+      <workItem from="1597425135419" duration="4880000" />
+      <workItem from="1597473032737" duration="13917000" />
+      <workItem from="1597676133226" duration="4590000" />
+      <workItem from="1597774325367" duration="2482000" />
+      <workItem from="1597856056573" duration="5466000" />
+      <workItem from="1597914913119" duration="5597000" />
+      <workItem from="1597952641358" duration="1488000" />
+      <workItem from="1597990838591" duration="5054000" />
+      <workItem from="1598076783203" duration="3944000" />
+      <workItem from="1598170228287" duration="4232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\Program Files\PowerShell\7\pwsh.exe" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="791" y="502" key="IDE.errors.dialog" timestamp="1597480686015">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="791" y="502" key="IDE.errors.dialog/3440.0.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1597480686015" />
+    <state x="1897" y="386" key="SettingsEditor" timestamp="1597517429260">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1897" y="386" key="SettingsEditor/3440.0.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1597517429260" />
+    <state x="282" y="374" width="1277" height="885" key="VCS.FileHistoryDialog" timestamp="1598179128457">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="282" y="374" width="1277" height="885" key="VCS.FileHistoryDialog/3440.0.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1598179128456" />
+    <state x="1084" y="603" width="606" height="472" key="cloudConfig.SelfSettingsDialog" timestamp="1597253260468">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1084" y="603" width="606" height="472" key="cloudConfig.SelfSettingsDialog/3440.0.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1597253260468" />
+    <state x="563" y="416" width="714" height="801" key="find.popup" timestamp="1597859824085">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="563" y="416" width="714" height="801" key="find.popup/3440.0.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1597859824085" />
+    <state x="583" y="514" width="672" height="678" key="search.everywhere.popup" timestamp="1597678457666">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="583" y="514" width="672" height="678" key="search.everywhere.popup/3440.0.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1597678457666" />
+  </component>
+</project>

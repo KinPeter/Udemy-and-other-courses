@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kinpe\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kinpe\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_unity-rpg-course.399546929.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kinpe\code\unity-rpg-course" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Asset Packs" t="Include">
+          <e p="Animations by Explosive" t="Include">
+            <e p="README - Usage Rights for these assets 1.txt" t="Include" />
+          </e>
+          <e p="SimpleFX" t="Include">
+            <e p="Materials" t="Include">
+              <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Synty - Polygon Student Sample" t="Include">
+            <e p="README - Usage Rights for these assets.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="RPG" t="Include">
+            <e p="Cinematics" t="Include">
+              <e p="CinematicsControlRemover.cs" t="Include" />
+              <e p="CinematicTrigger.cs" t="Include" />
+            </e>
+            <e p="Combat" t="Include">
+              <e p="CombatTarget.cs" t="Include" />
+              <e p="Fighter.cs" t="Include" />
+              <e p="Projectile.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
+              <e p="WeaponPickup.cs" t="Include" />
+            </e>
+            <e p="Control" t="Include">
+              <e p="AIController.cs" t="Include" />
+              <e p="PatrolPath.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+            </e>
+            <e p="Core" t="Include">
+              <e p="ActionScheduler.cs" t="Include" />
+              <e p="DestroyAfterEffect.cs" t="Include" />
+              <e p="FollowCamera.cs" t="Include" />
+              <e p="Health.cs" t="Include" />
+              <e p="IAction.cs" t="Include" />
+              <e p="PersistentObjectSpawner.cs" t="Include" />
+            </e>
+            <e p="Movement" t="Include">
+              <e p="Mover.cs" t="Include" />
+            </e>
+            <e p="Saving" t="Include">
+              <e p="ISaveable.cs" t="Include" />
+              <e p="SaveableEntity.cs" t="Include" />
+              <e p="SavingSystem.cs" t="Include" />
+              <e p="SerializableVector3.cs" t="Include" />
+            </e>
+            <e p="SceneManagement" t="Include">
+              <e p="Fader.cs" t="Include" />
+              <e p="Portal.cs" t="Include" />
+              <e p="SavingWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="unity-rpg-course.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

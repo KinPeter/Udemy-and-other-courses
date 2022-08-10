@@ -35,6 +35,8 @@
 [Short JavaScript + jQuery courses](https://github.com/KinPeter/Udemy-and-other-courses#short-js-courses)  
 [Spring 5 framework course](https://github.com/KinPeter/Udemy-and-other-courses#spring-5-framework-course)  
 [Svelte - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#svelte-complete-guide)  
+[Unity 3D - Complete Course](https://github.com/KinPeter/Udemy-and-other-courses#unity-3d-complete-course)  
+[Unity 3D - RPG Course](https://github.com/KinPeter/Udemy-and-other-courses#unity-3d-rpg-course)  
 [VueJS 2 - The Complete Guide by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#vuejs-complete-guide)  
 [Web Components & Stencil JS by Maximilian Schwarzmüller](https://github.com/KinPeter/Udemy-and-other-courses#web-components-and-stencil-js)  
 
@@ -444,6 +446,25 @@ From the Udemy online course [Python 1200: Practice for Beginners](https://www.u
 - MeetUs - webapp with Firebase
 
 [*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
+
+## Unity-3D-complete-course
+
+> [:file_folder:](/Unity-3D-complete-course "Go to code folder") Example code built in The Complete Unity 3D Course
+
+- Terminal Hacker
+- Project Boost
+- Argon Assault
+- Realm Rush
+- Zombie Runner
+
+
+## Unity-3D-RPG-course
+
+> [:file_folder:](/Unity-3D-RPG-course "Go to code folder") Example code built in The Unity 3D RPG Course
+
+[*To the top*](https://github.com/KinPeter/Udemy-and-other-courses#udemy-and-other-course-code)
+
 
 
 ## VueJS-Complete-Guide 
